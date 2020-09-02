@@ -1,4 +1,4 @@
-<div class="flex-m mhn3-m mb4">
+<div class="flex-m items-center mhn3-m mb4">
 
   <div class="ph3-m w-50-m">
     <img src="{{.imageUrl}}" alt="" class="db mb2">
@@ -8,5 +8,24 @@
     <h3 class="f3 b lh-title mb1">{{.heading}}</h3>
     <p>{{.text}}</p>
   </div>
+</div>
 
+<div class="timeline">
+  {{ range $index, $element := .timeline }}
+  {{ if modBool $index 2 }}
+  <div class="container left">
+    <div class="content">
+      <h2>{{$element.heading}}</h2>
+      <p>{{$element.text}}</p>
+    </div>
+  </div>
+  {{ else }}
+  <div class="container right">
+    <div class="content">
+      <h2>{{$element.heading}}</h2>
+      <p>{{$element.text}}</p>
+    </div>
+  </div>
+  {{ end }}
+  {{ end }}
 </div>

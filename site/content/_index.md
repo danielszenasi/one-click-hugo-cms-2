@@ -1,20 +1,67 @@
 ---
-title: "Great coffee with a conscience"
-subtitle: Support sustainable farming while enjoying a cup
-image: /img/home-jumbotron.jpg
-blurb:
-    heading: Why Kaldi?
-    text: "Kaldi is the coffee store for everyone who believes that great coffee shouldn't just taste good, it should do good too. We source all of our beans directly from small scale sustainable farmers and make sure part of the profits are reinvested in their communities."
-intro:
-    heading: "What we offer"
-    text: "Kaldi is the ultimate spot for coffee lovers who want to learn about their java’s origin and support the farmers that grew it. We take coffee production, roasting and brewing seriously and we’re glad to pass that knowledge to anyone."
-products:
-    - image: img/illustrations-coffee.svg
-      text: "We sell green and roasted coffee beans that are sourced directly from independent farmers and farm cooperatives. We’re proud to offer a variety of coffee beans grown with great care for the environment and local communities. Check our post or contact us directly for current availability."
-    - image: /img/illustrations-coffee-gear.svg
-      text: "We offer a small, but carefully curated selection of brewing gear and tools for every taste and experience level. No matter if you roast your own beans or just bought your first french press, you’ll find a gadget to fall in love with in our shop."
-values:
-    heading: Our values
-    text: Coffee is an amazing part of human culture but it has a dark side too – one of colonialism and mindless abuse of natural resources and human lives. We want to turn this around and return the coffee trade to the drink’s exhilarating, empowering and unifying nature.
+title: "Szemes Ágnes"
+image: /img/clinic.jpg
+blurbs:
+  - heading: "Versenyző"
+    text: >
+      Szüleimnek köszönhetően sokféle sportággal megismerkedtem már gyermekkoromban, testvéreimmel együtt megtanultunk úszni, síelni, lovagolni, korcsolyázni, teniszezni, röplabdázni is az iskolai testnevelésórákon kívül. Leginkább a művészi sportok tetszettek, így a jégtánc mellett tettem le a voksomat, mellette pedig táncművészeti osztályba jártam. Versenyzői pályafutásom alatt országos és nemzetközi bajnoki címet is szereztem a jégen, mellette pedig több moderntánc csapatverseny nyertes csapatában is táncoltam.
+    imageUrl: "/img/intro.jpg"
+    timeline:
+      - heading: "1998-2006"
+        text: >
+          Tarjáni Kéttannyelvű Általános Iskola és Alapfokú Művészetoktatási Intézmény
+      - heading: "2000-2010"
+        text: >
+          ICE TEAM SE jégtánc versenyzője
+      - heading: "2006-2010"
+        text: >
+          Radnóti Miklós Kísérleti Gimnázium
+      - heading: "2006-2012"
+        text: >
+          MONTAGE Tánccentrum táncosa
+  - heading: "Edző"
+    text: >
+      A gimnáziumi évek alatt egyre jobban kezdett érdekelni az edzői munka, segítettem az edzőimnek, kisebb csapattársaimmal foglalkoztam. Az érettségit követően megszereztem a jégtánc és műkorcsolya edzői szakképesítést. Segédedzőként kezdetben nem volt könnyű, sokszor testvéreimet és velem egykorú társaimat edzettem, de idővel egyre nagyobb bizalmat kaptam, és a versenyzők edzőjévé váltam. Büszke vagyok arra, hogy a kezem alatt országos bajnokok fejlődtek és egy összetartó csapat tagja lehettem.
+    imageUrl: "/img/intro.jpg"
+    timeline:
+      - heading: "2010-2012"
+        text: >
+          Juhász Gyula Pedagógusképző Kar – edző szak
+      - heading: "2010-2013"
+        text: >
+          KADETT SE
+      - heading: "2006-2010"
+        text: >
+          ICE-TEAM SE
+  - heading: "Sportpszichológus"
+    text: >
+      Mindig is tudtam, hogy a sport világában szeretnék dolgozni, segítve a versenyzők felkészülését. Így az edzői munka mellett elkezdtem pszichológiai tanulmányaimat, majd elvégeztem a sportszakpszichológus képzést is, hogy mentális oldalról szakszerű támogatást tudjak nyújtani a hozzám forduló egyéni és csapatsportolóknak. Magánrendelésemre azóta egyre több versenyző érkezik különböző sportágakból, emellett több szövetség és klub munkáját is igyekszem sportpszichológusként segíteni.
+    imageUrl: "/img/intro.jpg"
+    timeline:
+      - heading: "2010-2013"
+        text: >
+          SZTE-BTK- pszichológia BA
+      - heading: "2013-2015"
+        text: >
+          BME-GTK-pszichológia MA munka-és szervezetpszichológia szak
+      - heading: "2017-2019"
+        text: >
+          TE sportpszichológia szak
+  - heading: "Egyetemi tanársegéd"
+    text: >
+      Az edzői munkám és tanulmányaim során is többen kiemelték, hogy jó oktatói kvalitásaim vannak, kreativitásom pedig jól tudnám kamatoztatni képzés, fejlesztés területén. Az egyetem elvégzése után mentoraim iránymutatásával és segítségével elvállaltam néhány elméleti és gyakorlati tárgy oktatását. Később már komplett kurzusokat is tartottam, és az oktatói pályám következő lépcsőjeként elindítottam a PhD. tanulmányaimat. Disszertációmban élsportolók motivációs struktúráját vizsgáltam, melynek eredményeit szeretném a gyakorlati munkámba is beépíteni. 
+    imageUrl: "/img/intro.jpg"
+    timeline:
+      - heading: "2016"
+        text: >
+          TE Pszichológia és Sportpszichológia Tanszék (Pedagógiai pszichológia, Fejlődéslélektan,
+          Egészségpszichológia, Autogén
+          és mentális tréning, Pedagógiai és kommunikációs készségfejlesztés, Kutatásmódszertan a
+          társadalomtudományokban)
+      - heading: "2016-2020"
+        text: >
+          TE PhD. képzés (Megjelent tudományos munkáim link)
+      - heading: "2017-2018"
+        text: >
+          Szinergia Szakiskola (Bevezetés a pszichológiába, Bevezetés a sportpszichológiába)
 ---
-
