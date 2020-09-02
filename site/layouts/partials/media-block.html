@@ -1,7 +1,7 @@
-<div class="flex-m items-center mhn3-m mb4">
+<div data-aos="fade-up" class="flex-m items-center mhn3-m mb4">
 
   <div class="ph3-m w-50-m">
-    <img src="{{.imageUrl}}" alt="" class="db mb2">
+    <img src="{{.imageUrl}}" alt="" class="db mb2" />
   </div>
 
   <div class="ph3-m w-50-m">
@@ -13,19 +13,18 @@
 <div class="timeline">
   {{ range $index, $element := .timeline }}
   {{ if modBool $index 2 }}
-  <div class="container left">
+  <div data-aos="fade-up" class="container left">
     <div class="content">
       <h2>{{$element.heading}}</h2>
       <p>{{$element.text}}</p>
     </div>
   </div>
   {{ else }}
-  <div class="container right">
+  <div data-aos="fade-up" class="container right">
     <div class="content">
       <h2>{{$element.heading}}</h2>
       <p>{{$element.text}}</p>
     </div>
   </div>
-  {{ end }}
-  {{ end }}
+  {{ end }} {{ end }}
 </div>
