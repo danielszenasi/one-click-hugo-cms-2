@@ -77,7 +77,7 @@ blurbs:
       Később már komplett kurzusokat is tartottam, és az oktatói pályám
       következő lépcsőjeként elindítottam a PhD. tanulmányaimat.
       Disszertációmban élsportolók motivációs struktúráját vizsgáltam, melynek
-      eredményeit szeretném a gyakorlati munkámba is beépíteni. test
+      eredményeit szeretném a gyakorlati munkámba is beépíteni.
     imageUrl: /img/intro.jpg
     timeline:
       - heading: "2016"
@@ -93,10 +93,4 @@ blurbs:
         text: >
           Szinergia Szakiskola (Bevezetés a pszichológiába, Bevezetés a
           sportpszichológiába)
-  - heading: Test
-    text: test
-    timeline:
-      - heading: test
-        text: test
-    imageUrl: img/about-direct-sourcing.jpg
 ---
