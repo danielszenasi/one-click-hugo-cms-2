@@ -93,4 +93,10 @@ blurbs:
         text: >
           Szinergia Szakiskola (Bevezetés a pszichológiába, Bevezetés a
           sportpszichológiába)
+  - heading: Test
+    text: test
+    timeline:
+      - heading: test
+        text: test
+    imageUrl: img/about-direct-sourcing.jpg
 ---
