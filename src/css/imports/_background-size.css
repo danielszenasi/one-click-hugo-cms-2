@@ -1,4 +1,4 @@
-.cover { background-size: cover!important; }
+.cover { background-size: cover!important; background-position: center; min-height: 600px;}
 .contain { background-size: contain!important; }
 
 @media (--breakpoint-not-small) {

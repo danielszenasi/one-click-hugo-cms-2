@@ -1,16 +1,41 @@
-<div class="bg-off-white pv4">
-	<div class="ph3 mw7 center">
-		<h2 class="f2 b lh-title mb2">{{.heading}}</h2>
+<div class="pv4" id="{{.heading | urlize}}">
+	<div class="ph3">
+		<h2 class="f2 tc b lh-title mb2">{{.heading}}</h2>
 		<p class="mb4 mw6">{{.description}}</p>
 
-		<div class="flex-ns flex-wrap mhn2-ns mb3">
-			{{ range .blurbs }}
-			<div class="ph2-ns w-50-ns mb4">
-				<img src="{{ .image }}" alt="" class="center db mb3" style="width: 240px">
-				<h4 class="b">{{ .title }}</h4>
-				<p>{{ .text }}</p>
+		<div>
+			{{ range $index, $element := .blurbs }}
+			{{ if modBool $index 2 }}
+
+			<div class="up-4">
+				<div class="wrapper mw8 center">
+					<div class="text" data-aos="fade-up">
+						<h3 class="b f3">{{ .title }}</h3>
+						<p>{{ .text }}</p>
+					</div>
+					<div class="illustration-wrapper" data-aos="fade-up">
+						<img src="{{ .image }}" alt="" class="illustration">
+					</div>
+				</div>
 			</div>
+
+			{{ else }}
+
+			<div class="up-4" style="background-color: #f7f8fa;">
+				<div class="wrapper mw8 center">
+					<div class="illustration-wrapper" data-aos="fade-up">
+						<img src="{{ .image }}" alt="" class="illustration">
+					</div>
+					<div class="text" data-aos="fade-up">
+						<h3 class="b f3">{{ .title }}</h3>
+						<p>{{ .text }}</p>
+					</div>
+				</div>
+			</div>
+
 			{{ end }}
+			{{ end }}
+
 		</div>
 	</div>
 </div>

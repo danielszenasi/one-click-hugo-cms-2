@@ -1,23 +1,47 @@
 {{ define "main" }}
 
+{{ partial "jumbotron" (dict "imageUrl" .Params.image "title" .Title) }}
 <div class="ph3 bg-off-white">
 	<div class="center mw6 pv3">
 
-		<img src="{{ .Params.logo }}" alt="" class="db w4 center pv4">
-
-		{{ .Content }}
-
-		<div class="flex-ns mb3">
-	        	{{ range .Params.contact_entries }}
-				<div>
-					<h4 class="f4 b lh-title mb2 primary">{{ .heading }}</h4>
-					<p>{{ .text }}</p>
-				</div>
-			{{ end }}
+		<div class="flex">
+			<div>
+				<h4 class="f4 b lh-title mb2 primary">Email</h4>
+				<p>{{ .Params.email }}</p>
+			</div>
+			<div>
+				<h4 class="f4 b lh-title mb2 primary">Telefon</h4>
+				<p>{{ .Params.phone }}</p>
+			</div>
 		</div>
+
+		<div>
+			<h4 class="f4 b lh-title mb2 primary">Helyszín</h4>
+			<p>
+			<div><strong>{{ .Params.clinic_name }}</strong></div>
+			<div>{{ .Params.address }}</div>
+			<ul class="list-style-circle">
+				{{ range .Params.direction }}
+				<li>{{ .text }}</li>
+				{{ end }}
+			</ul>
+			</p>
+			<p>
+				{{.Params.direction_desc}}
+			</p>
+
+		</div>
+
+		<div>
+			<h4 class="f4 b lh-title mb2 primary">Árak</h4>
+			<p>{{ .Params.price }}</p>
+		</div>
+
 
 		{{ partial "contact-form" . }}
 
+		<div class="b">Szerződés</div>
+		{{ .Content }}
 	</div>
 </div>
 

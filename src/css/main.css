@@ -72,6 +72,7 @@
 @import './imports/_buttons';
 @import './imports/_svg';
 @import './imports/_cms';
+@import './imports/_wave';
 
 /* Variables */
 /* Importing here will allow you to override any variables in the modules */
@@ -102,8 +103,7 @@
   background-color: var(--primary);
   top: 0;
   bottom: 0;
-  left: 50%;
-  margin-left: -3px;
+  left: 0;
 }
 
 /* Container around content */
@@ -111,7 +111,7 @@
   padding: 10px 40px;
   position: relative;
   background-color: inherit;
-  width: 50%;
+  z-index: 1;
 }
 
 /* The circles on the timeline */
@@ -120,7 +120,7 @@
   position: absolute;
   width: 25px;
   height: 25px;
-  right: -17px;
+  left: -14px;
   background-color: var(--grey-1);
   border: 4px solid var(--primary);
   top: 15px;
@@ -215,4 +215,46 @@
   .right {
     left: 0%;
   }
+}
+
+.up-4 {
+  
+  padding: 100px 0;
+}
+
+.up-4 .wrapper {
+display: flex;
+  align-items: center;
+}
+
+.up-4 .text {
+  flex: 0 0 40%;
+  max-width: 40%;
+}
+
+.up-4 .illustration {
+  max-height: 400px;
+}
+
+.up-4 .illustration-wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.home-into .name {
+  font-weight: 800;
+}
+
+.intro .image{
+     flex-basis: 45%;
+    flex-shrink: 0;
+}
+
+.intro .text{
+   padding-left: 48px;
+}
+
+.list-style-circle {
+  list-style: disc
 }

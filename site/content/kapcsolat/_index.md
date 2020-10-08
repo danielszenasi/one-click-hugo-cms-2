@@ -1,19 +1,21 @@
 ---
-title: "Contact"
-logo: "/img/logo.svg"
-contact_entries:
-  - heading: Location
-    text: "3153 Lynn Avenue, South San Francisco, California 94080"
-  - heading: Working hours
-    text: "Monday – Saturday: 9AM – 7PM We’re closed on Sundays"
+title: "Kapcsolat"
+image: /img/clinic.jpg
+address: "1126 Budapest, Kiss János Altábornagy utca 19."
+clinic_name: "Alkotás Terápiás Rendelő"
+direction:
+  - text: "villamossal: 17, 59, 61"
+  - text: "busszal: 105, 139, 140, 212"
+  - text: "2-es metróval"
+  - text: "autóval (MOM Parkban érdemes parkolni)"
+direction_desc: "Külső helyszín előzetes egyeztetés és közös megállapodás alapján lehetséges, valamint idővel online formára is átváltható (pl. edzőtábor, verseny, betegség idején). A személyes előadások helyszínéről és technikai feltételeiről a megrendelőnek kell gondoskodnia."
+email: "agiszemes@gmail.com"
+phone: "30/507-4403"
+price: "Kérem személyesen érdeklődjön a szolgáltatás áráról, melyek a létszám, szolgáltatás típusa és hossza alapján 9.000 és 100.000 Ft között mozognak."
+working_hours: "hétfő, kedd, szerda, csütörtök, péntek, szombat 9-12 között, 12-15 között, 15-18 között, 18-21 között"
+service: "egyéni foglalkozás, páros foglalkozás, trióval történő foglalkozás, kiscsoportos foglalkozás (4-8 fő), nagycsoportos foglalkozás (8-16 fő), edzői konzultáció, szülői konzultáció, előadás"
+message: "Köszönöm szépen a bizalmát és a megkeresést. Egy-két napon belül válaszolok és felkeresem a megadott elérhetőségen, hogy megbeszélhessük a továbbiakat."
 ---
 
-We’d love to get in touch with you and hear your ideas and
-questions. We strive to grow and improve constantly and your feedback
-is valuable for us.
-
-<h3 class="f4 b lh-title mb2">How can I get…?</h3>
-
-You can also use the form below for any inquiries about coffee
-availability, monthly subscriptions and scheduling a 1-on-1 session
-with our baristas. Don’t be shy, drop us a line!
+Az első alkalommal szóbeli szerződést kötünk, melyben megállapodunk a foglalkozások céljáról, rendszerességéről, és megegyezünk a titoktartásban, valamint az önálló munka vállalásában, hiszen a fejlődés nagy része a foglalkozást követően történik. Ha valaki ezt nem tudja betartani, akkor jogom van a vele történő foglalkozásokat beszüntetni.
+A leegyeztetett, ezáltal lefoglalt időpontot annak kezdete előtt legalább 24 órával jelezni kell emailben vagy telefonon keresztül. Amennyiben 24 órán belül történik az időpont lemondása, vagy nem jelenik meg az illető az alkalmon, nem áll módomban visszatéríteni a díját, illetve kötelezhetem annak megfizetésére indoktól függetlenül. 

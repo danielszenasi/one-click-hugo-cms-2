@@ -1,15 +1,27 @@
 {{ define "main" }}
-
-{{ partial "jumbotron" (dict "imageUrl" .Params.image "title" .Title "subtitle" .Params.subtitle) }}
-
-<div class="mw7 center ph3 pt4">
-    {{ range $index, $element := .Params.blurbs }}
-    {{ if modBool $index 2 }}
-    {{ partial "media-block" $element }}
-    {{ else }}
-    {{ partial "media-block-reverse" $element }}
-    {{ end }}
-    {{ end }}
+<div class="home-into">
+    <div class="intro-text">
+        <h4>Sportpszichológus</h4>
+        <h2 class="h1-text name">Szemes Ágnes</h2>
+    </div>
+    <img class="home-me" src="/assets/home.png"></img>
 </div>
 
+<div class="home-bg">
+    <div class="ocean">
+        <div class="wave"></div>
+        <div class="wave"></div>
+    </div>
+</div>
+
+<div class="flex items-center mw7 center pt6 intro">
+    <div class="image">
+        <img src="{{.Params.image}}"></img>
+    </div>
+
+    <div class="text">
+        {{.Params.intro}}
+    </div>
+
+</div>
 {{ end }}

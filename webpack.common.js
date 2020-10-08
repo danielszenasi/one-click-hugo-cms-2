@@ -25,7 +25,7 @@ module.exports = {
         loader: "babel-loader",
         test: /\.js?$/,
         exclude: /node_modules/,
-        query: {cacheDirectory: true}
+        query: { cacheDirectory: true }
       },
       {
         test: /\.(sa|sc|c)ss$/,
@@ -43,8 +43,8 @@ module.exports = {
     }),
     new CopyWebpackPlugin([
       {
-        from: "./src/fonts/",
-        to: "fonts/",
+        from: "./src/assets/",
+        to: "assets/",
         flatten: true
       }
     ]),
