@@ -12,3 +12,11 @@
   box-shadow: inset 0 0 0 2px var(--primary);
   transition: var(--hover-transition);
 }
+
+.btn-outline {
+  background: transparent;
+  border: 2px solid white;
+  color: white;
+  margin-top: 16px;
+  font-size: 18px;
+}

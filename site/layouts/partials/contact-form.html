@@ -2,47 +2,83 @@
 <div class="mb4">
   <h4 class="f3 b lh-title mb3 tc">Kapcsolatfelvétel</h4>
 
-  <form name="contact" method="POST" data-netlify="true">
+  <form name="contact" class="contact" method="POST" data-netlify="true">
     <div class="flex-l mhn1-l pb3">
       <!-- Name -->
       <div class="ph1-l w-50-l">
         <fieldset>
-          <input type="text" id="name" name="name" placeholder="Név" class="w-100 mb2">
+          <input
+            type="text"
+            id="name"
+            name="name"
+            placeholder="Név"
+            class="w-100 mb2"
+          />
           <label for="name">Név</label>
         </fieldset>
       </div>
       <!-- Email -->
       <div class="ph1-l w-50-l">
         <fieldset>
-          <input type="text" id="contact" name="contact" placeholder="Elérhetőség" class="w-100 mb2">
+          <input
+            type="text"
+            id="contact"
+            name="contact"
+            placeholder="Elérhetőség"
+            class="w-100 mb2"
+          />
           <label for="contact">Elérhetőség</label>
         </fieldset>
       </div>
-
-
     </div>
-
 
     <div class="ph1-l pb3">
       <fieldset>
-        <input type="text" id="service" name="service" placeholder="Szolgáltatás típusa" class="w-100 mb2">
+        <input
+          type="text"
+          id="service"
+          name="service"
+          placeholder="Szolgáltatás típusa"
+          class="w-100 mb2"
+        />
         <label for="service">Szolgáltatás típusa</label>
       </fieldset>
-      {{.Params.service}}
+      {{ .Params.service }}
     </div>
 
     <div class="ph1-l pb3">
       <fieldset>
-        <input type="text" id="date" name="date" placeholder="Alkalmas időpont" class="w-100 mb2">
+        <input
+          type="text"
+          id="date"
+          name="date"
+          placeholder="Alkalmas időpont"
+          class="w-100 mb2"
+        />
         <label for="date">Alkalmas időpont</label>
       </fieldset>
-      {{.Params.working_hours}}
+      <ul>
+        <li>hétfő: 9-12 között, 12-15 között, 15-18 között, 18-21 között</li>
+        <li>kedd: 9-12 között, 12-15 között, 15-18 között, 18-21 között</li>
+        <li>szerda: 9-12 között, 12-15 között, 15-18 között, 18-21 között</li>
+        <li>
+          csütörtök: 9-12 között, 12-15 között, 15-18 között, 18-21 között
+        </li>
+        <li>péntek: 9-12 között, 12-15 között, 15-18 között, 18-21 között</li>
+        <li>szombat: 9-12 között, 12-15 között, 15-18 között, 18-21 között</li>
+      </ul>
     </div>
-
 
     <!-- Message -->
     <fieldset>
-      <textarea id="message" name="message" placeholder="Egyéb megjegyzés" rows="8" cols="80" class="w-100"></textarea>
+      <textarea
+        id="message"
+        name="message"
+        placeholder="Egyéb megjegyzés"
+        rows="8"
+        cols="80"
+        class="w-100"
+      ></textarea>
       <label for="message">Egyéb megjegyzés</label>
     </fieldset>
     <!-- Button -->

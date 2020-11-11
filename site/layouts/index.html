@@ -1,27 +1,33 @@
 {{ define "main" }}
-<div class="home-into">
+  <div class="home-into">
     <div class="intro-text">
-        <h4>Sportpszichológus</h4>
-        <h2 class="h1-text name">Szemes Ágnes</h2>
+      <h2 class="h1-text name">Szemes Ágnes</h2>
+      <h4>
+        <span
+          class="typewrite"
+          data-period="2000"
+          data-type='[ "Pszichológus", "Sportszakpszichológus", "Egyetemi tanársegéd"]'
+        >
+          <span class="wrap"></span>
+        </span>
+      </h4>
+      <a href="/kapcsolat" class="btn btn-outline">Lépj kapcsolatba velem!</a>
     </div>
-    <img class="home-me" src="/assets/home.png"></img>
-</div>
+    <img class="home-me" src="/assets/home.png" />
+  </div>
 
-<div class="home-bg">
+  <div class="home-bg">
     <div class="ocean">
-        <div class="wave"></div>
-        <div class="wave"></div>
+      <div class="wave"></div>
+      <div class="wave"></div>
     </div>
-</div>
+  </div>
 
-<div class="flex items-center mw7 center pt6 intro">
+  <div class="flex items-center mw7 center pt6 intro">
     <div class="image">
-        <img src="{{.Params.image}}"></img>
+      <img src="{{ .Params.image }}" />
     </div>
 
-    <div class="text">
-        {{.Params.intro}}
-    </div>
-
-</div>
+    <div class="text tc">{{ .Content }}</div>
+  </div>
 {{ end }}

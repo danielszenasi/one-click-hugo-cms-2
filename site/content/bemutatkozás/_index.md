@@ -1,6 +1,6 @@
 ---
 title: "Bemutatkozás"
-image: /img/clinic.jpg
+image: /img/bemutatkozas.jpg
 blurbs:
   - heading: "Versenyző"
     text: >
@@ -30,7 +30,7 @@ blurbs:
       - heading: "2010-2013"
         text: >
           KADETT SE
-      - heading: "2006-2010"
+      - heading: "2013-2016"
         text: >
           ICE-TEAM SE
   - heading: "Sportpszichológus"
@@ -47,21 +47,19 @@ blurbs:
       - heading: "2017-2019"
         text: >
           TE sportpszichológia szak
-  - heading: "Egyetemi tanársegéd"
+  - heading: "Oktató-kutató"
     text: >
-      Az edzői munkám és tanulmányaim során is többen kiemelték, hogy jó oktatói kvalitásaim vannak, kreativitásom pedig jól tudnám kamatoztatni képzés, fejlesztés területén. Az egyetem elvégzése után mentoraim iránymutatásával és segítségével elvállaltam néhány elméleti és gyakorlati tárgy oktatását. Később már komplett kurzusokat is tartottam, és az oktatói pályám következő lépcsőjeként elindítottam a PhD. tanulmányaimat. Disszertációmban élsportolók motivációs struktúráját vizsgáltam, melynek eredményeit szeretném a gyakorlati munkámba is beépíteni. 
+      Az edzői munkám és tanulmányaim során is többen kiemelték, hogy jó oktatói kvalitásaim vannak, kreativitásom pedig jól tudnám kamatoztatni képzés, fejlesztés területén. Az egyetem elvégzése után mentoraim iránymutatásával és segítségével elvállaltam néhány elméleti és gyakorlati tárgy oktatását. Később már komplett kurzusokat is tartottam, és az oktatói pályám következő lépcsőjeként elindítottam a PhD. tanulmányaimat. Disszertációmban élsportolók motivációs struktúráját vizsgáltam, melynek eredményeit a gyakorlati munkámba is beépítem.
     imageUrl: "/img/intro.jpg"
     timeline:
       - heading: "2016"
-        text: >
-          TE Pszichológia és Sportpszichológia Tanszék (Pedagógiai pszichológia, Fejlődéslélektan,
-          Egészségpszichológia, Autogén
-          és mentális tréning, Pedagógiai és kommunikációs készségfejlesztés, Kutatásmódszertan a
-          társadalomtudományokban)
+        text: TE Pszichológia és Sportpszichológia Tanszék –külsős oktató
       - heading: "2016-2020"
-        text: >
-          TE PhD. képzés (Megjelent tudományos munkáim link)
+        text: TE PhD. képzés
       - heading: "2017-2018"
-        text: >
-          Szinergia Szakiskola (Bevezetés a pszichológiába, Bevezetés a sportpszichológiába)
+        text: Szinergia Szakiskola – külsős oktató
+      - heading: "2017"
+        text: KRE-BTK Pszichológia Intézet – külsős oktató
+      - heading: "2020"
+        text: TE Sportgazdasági és Döntéstudományi Kutató Központ – egyetemi tanársegéd
 ---

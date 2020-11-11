@@ -12,10 +12,9 @@ direction_desc: "Külső helyszín előzetes egyeztetés és közös megállapod
 email: "agiszemes@gmail.com"
 phone: "30/507-4403"
 price: "Kérem személyesen érdeklődjön a szolgáltatás áráról, melyek a létszám, szolgáltatás típusa és hossza alapján 9.000 és 100.000 Ft között mozognak."
-working_hours: "hétfő, kedd, szerda, csütörtök, péntek, szombat 9-12 között, 12-15 között, 15-18 között, 18-21 között"
 service: "egyéni foglalkozás, páros foglalkozás, trióval történő foglalkozás, kiscsoportos foglalkozás (4-8 fő), nagycsoportos foglalkozás (8-16 fő), edzői konzultáció, szülői konzultáció, előadás"
 message: "Köszönöm szépen a bizalmát és a megkeresést. Egy-két napon belül válaszolok és felkeresem a megadott elérhetőségen, hogy megbeszélhessük a továbbiakat."
 ---
 
 Az első alkalommal szóbeli szerződést kötünk, melyben megállapodunk a foglalkozások céljáról, rendszerességéről, és megegyezünk a titoktartásban, valamint az önálló munka vállalásában, hiszen a fejlődés nagy része a foglalkozást követően történik. Ha valaki ezt nem tudja betartani, akkor jogom van a vele történő foglalkozásokat beszüntetni.
-A leegyeztetett, ezáltal lefoglalt időpontot annak kezdete előtt legalább 24 órával jelezni kell emailben vagy telefonon keresztül. Amennyiben 24 órán belül történik az időpont lemondása, vagy nem jelenik meg az illető az alkalmon, nem áll módomban visszatéríteni a díját, illetve kötelezhetem annak megfizetésére indoktól függetlenül. 
+A leegyeztetett, ezáltal lefoglalt időpontot annak kezdete előtt legalább 24 órával jelezni kell emailben vagy telefonon keresztül. Amennyiben 24 órán belül történik az időpont lemondása, vagy nem jelenik meg az illető az alkalmon, nem áll módomban visszatéríteni a díját, illetve kötelezhetem annak megfizetésére indoktól függetlenül.

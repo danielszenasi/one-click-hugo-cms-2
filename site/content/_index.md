@@ -1,6 +1,13 @@
 ---
 title: "Szemes Ágnes"
 image: /img/intro.jpg
-intro: >-
-  Edzésen megy, de versenyen valamiért kevésbé? Nagyon izgul és emiatt sokat ront téthelyzetben? Szakszerű sportpszichológiai felkészítéssel segíteni tudok a nehéz helyzetekkel való megküzdési képességén. Ha bizalmat szavaz nekem, akkor együtt kialakítjuk a saját módszereit, melyekkel kezelni tudja és meg is előzheti a felmerülő problémákat.
 ---
+
+_Edzésen megy, de versenyen valamiért kevésbé?_  
+_Nagyon izgulsz és emiatt sokat rontasz téthelyzetben?_
+
+Szakszerű sportpszichológiai felkészítéssel segíteni tudunk a nehéz helyzetekkel való megküzdési képességeden!  
+_[Tudj meg többet rólam](/bemutatkozás)_.
+
+Alakítsuk ki együtt saját módszereidet, melyekkel kezelni tudod és meg is előzheted a felmerülő problémákat!  
+_[Tudj meg többet a munkámról](/sportpszichológia)_.

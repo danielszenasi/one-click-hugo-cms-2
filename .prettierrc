@@ -1,1 +1,10 @@
-{ "proseWrap": "always" }
+{
+  "overrides": [
+    {
+      "files": ["*.html"],
+      "options": {
+        "parser": "go-template"
+      }
+    }
+  ]
+}
