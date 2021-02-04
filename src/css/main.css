@@ -245,6 +245,11 @@
   font-weight: 800;
 }
 
+.intro {
+  padding-top: 165px;
+  margin-bottom: 2rem;
+}
+
 .intro .text {
   padding-left: 48px;
 }
@@ -277,7 +282,7 @@ h1 {
   background: #ffffff;
   text-align: center;
   padding-bottom: 4em;
-  height: 725px;
+  height: 520px;
   max-width: 750px;
   margin: auto;
   position: relative;
@@ -290,6 +295,29 @@ h1 {
   font-size: 1em;
   text-align: center;
   color: #bbbbbb;
+}
+.carrousel-wrapper {
+  position: relative;
+}
+.carrousel-left,
+.carrousel-right {
+  position: absolute;
+  top: calc(50% - 75px);
+  cursor: pointer;
+  background-color: transparent;
+}
+.carrousel-left img {
+  width: 150px;
+}
+.carrousel-right img {
+  width: 150px;
+}
+.carrousel-left {
+  left: -100px;
+}
+
+.carrousel-right {
+  right: -100px;
 }
 .carrousel .slides {
   width: 500%;
@@ -353,7 +381,7 @@ h1 {
   width: 10px;
   -webkit-border-radius: 50%;
   border-radius: 50%;
-  border: solid 2px #2980b9;
+  border: solid 2px #3a3973;
   font-size: 0;
 }
 /* You have to repeat this with each slide
@@ -385,7 +413,7 @@ TODO: make it easier with SCSS
 .carrousel #radio-3:checked ~ .slidesNavigation label#dotForRadio-3,
 .carrousel #radio-4:checked ~ .slidesNavigation label#dotForRadio-4,
 .carrousel #radio-5:checked ~ .slidesNavigation label#dotForRadio-5 {
-  background: #2980b9;
+  background: #3a3973;
 }
 
 @media (max-width: 796px) {
@@ -406,4 +434,48 @@ TODO: make it easier with SCSS
     margin-left: -1em;
     margin-right: 0.25em;
   }
+}
+
+.flip-card {
+  background-color: transparent;
+  width: 300px;
+  height: 390px;
+  perspective: 1000px;
+}
+
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.1);
+}
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front,
+.flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.flip-card-front {
+  color: black;
+}
+
+.flip-card-back {
+  background-color: var(--primary);
+  color: white;
+  transform: rotateY(180deg);
+  padding: 24px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
 }

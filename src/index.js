@@ -57,4 +57,25 @@ window.onload = function () {
       new TxtType(elements[i], JSON.parse(toRotate), period);
     }
   }
+
+  document.getElementById("carrousel-left").addEventListener("click", () => {
+    var selected = document.querySelector('input[name="slides"]:checked').value;
+    var slides = document.querySelectorAll('input[name="slides"]');
+    if (selected == 1) {
+      const last = slides.length - 1;
+      slides[last].checked = true;
+    } else {
+      slides[selected - 2].checked = true;
+    }
+  });
+
+  document.getElementById("carrousel-right").addEventListener("click", () => {
+    var selected = document.querySelector('input[name="slides"]:checked').value;
+    var slides = document.querySelectorAll('input[name="slides"]');
+    if (selected < slides.length) {
+      slides[selected].checked = true;
+    } else {
+      slides[0].checked = true;
+    }
+  });
 };

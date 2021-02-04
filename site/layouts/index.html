@@ -11,7 +11,9 @@
           <span class="wrap"></span>
         </span>
       </h4>
-      <a href="/kapcsolat" class="btn btn-outline">Lépj kapcsolatba velem!</a>
+      <a href="/kapcsolat" class="btn btn-outline mt3"
+        >Lépj kapcsolatba velem!</a
+      >
     </div>
     <img class="home-me" src="/assets/home.png" />
   </div>
@@ -23,11 +25,27 @@
     </div>
   </div>
 
-  <div class="flex items-center mw7 center pt6 intro">
+  <div class="flex items-center mw7 center intro">
     <div class="image">
       <img src="{{ .Params.image }}" />
     </div>
 
-    <div class="text tc">{{ .Content }}</div>
+    <div class="text tj primary">
+      {{ .Content }}
+      <p>
+        Szakszerű sportpszichológiai felkészítéssel segíteni tudunk a nehéz
+        helyzetekkel való megküzdési képességeden!
+      </p>
+      <a class="btn btn-outline primary mb1" href="/bemutatkoz%C3%A1s">
+        Tudj meg többet rólam
+      </a>
+      <p>
+        Alakítsuk ki együtt saját módszereidet, melyekkel kezelni tudod és meg
+        is előzheted a felmerülő problémákat!
+      </p>
+      <a class="btn btn-outline primary mb1" href="/sportpszichol%C3%B3gia">
+        Tudj meg többet a munkámról
+      </a>
+    </div>
   </div>
 {{ end }}
