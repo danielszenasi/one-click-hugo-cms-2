@@ -31,17 +31,17 @@
             <li>{{ .text }}</li>
           {{ end }}
         </ul>
-        <p>
+        <p class="mt3 tc">
           {{ .Params.direction_desc }}
         </p>
       </div>
       <div>
         <h4 class="f3 b lh-title mb3 tc">Árak</h4>
-        <p>{{ .Params.price }}</p>
+        <p class="tc">{{ .Params.price }}</p>
       </div>
       {{ partial "contact-form" . }}
       <h4 class="f3 b lh-title mb3 tc">Szerződés</h4>
-      {{ .Content }}
+      <div class="tc">{{ .Content }}</div>
     </div>
   </div>
 {{ end }}

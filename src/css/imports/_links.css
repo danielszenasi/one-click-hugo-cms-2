@@ -6,16 +6,16 @@
 
 .link:link,
 .link:visited {
-  transition: color .15s ease-in;
+  transition: color 0.15s ease-in;
 }
-.link:hover   {
-  transition: color .15s ease-in;
+.link:hover {
+  transition: color 0.15s ease-in;
   text-decoration: underline;
 }
-.link:active  {
-  transition: color .15s ease-in;
+.link:active {
+  transition: color 0.15s ease-in;
 }
-.link:focus   {
-  transition: color .15s ease-in;
+.link:focus {
+  transition: color 0.15s ease-in;
   outline: 1px dotted currentColor;
 }
