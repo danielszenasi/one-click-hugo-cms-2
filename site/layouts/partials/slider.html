@@ -1,40 +1,86 @@
-<div class="bg-off-white pv4" id="{{ .heading | urlize }}">
-  <div class="ph3 mw7 center">
-    <h2 class="f2 tc b lh-title mb3">{{ .heading }}</h2>
-    <!-- Testimonial Slider -->
-    <div class="carrousel-wrapper">
-      <div class="carrousel">
-        <input type="radio" name="slides" id="radio-1" value="1" checked />
-        <input type="radio" name="slides" id="radio-2" value="2" />
-        <input type="radio" name="slides" id="radio-3" value="3" />
-        <input type="radio" name="slides" id="radio-4" value="4" />
-        <input type="radio" name="slides" id="radio-5" value="5" />
-        <ul class="slides">
-          {{ range .blurbs }}
-            <li class="slide">
-              <div class="author">
-                <img src="{{ .image }}" />
-                <div>{{ .title }}</div>
-              </div>
-              <q>{{ .text }}</q>
-            </li>
-          {{ end }}
-        </ul>
-        <div class="slidesNavigation">
-          <label for="radio-1" id="dotForRadio-1"></label>
-          <label for="radio-2" id="dotForRadio-2"></label>
-          <label for="radio-3" id="dotForRadio-3"></label>
-          <label for="radio-4" id="dotForRadio-4"></label>
-          <label for="radio-5" id="dotForRadio-5"></label>
-        </div>
+<div class="ph3 mw7 center">
+  <h3 class="f3 b tc lh-title mb3">{{ .heading }}</h3>
+  <!-- Testimonial Slider -->
+  <div class="carrousel-wrapper">
+    <div class="carrousel">
+      <input
+        type="radio"
+        name="{{ .id }}-slides"
+        id="{{ .id }}-radio-1"
+        value="1"
+        checked
+      />
+      <input
+        type="radio"
+        name="{{ .id }}-slides"
+        id="{{ .id }}-radio-2"
+        value="2"
+      />
+      <input
+        type="radio"
+        name="{{ .id }}-slides"
+        id="{{ .id }}-radio-3"
+        value="3"
+      />
+      <input
+        type="radio"
+        name="{{ .id }}-slides"
+        id="{{ .id }}-radio-4"
+        value="4"
+      />
+      <input
+        type="radio"
+        name="{{ .id }}-slides"
+        id="{{ .id }}-radio-5"
+        value="5"
+      />
+      <input
+        type="radio"
+        name="{{ .id }}-slides"
+        id="{{ .id }}-radio-6"
+        value="6"
+      />
+      <input
+        type="radio"
+        name="{{ .id }}-slides"
+        id="{{ .id }}-radio-7"
+        value="7"
+      />
+      <input
+        type="radio"
+        name="{{ .id }}-slides"
+        id="{{ .id }}-radio-8"
+        value="8"
+      />
+      <ul class="slides">
+        {{ range .blurbs }}
+          <li class="slide">
+            <div class="author">
+              <img src="{{ .image }}" />
+              <div>{{ .title }}</div>
+              <div class="f6 mb2">{{ .organization }}</div>
+            </div>
+            <q>{{ .text }}</q>
+          </li>
+        {{ end }}
+      </ul>
+      <div class="slidesNavigation">
+        <label for="{{ .id }}-radio-1" id="{{ .id }}-dotForRadio-1"></label>
+        <label for="{{ .id }}-radio-2" id="{{ .id }}-dotForRadio-2"></label>
+        <label for="{{ .id }}-radio-3" id="{{ .id }}-dotForRadio-3"></label>
+        <label for="{{ .id }}-radio-4" id="{{ .id }}-dotForRadio-4"></label>
+        <label for="{{ .id }}-radio-5" id="{{ .id }}-dotForRadio-5"></label>
+        <label for="{{ .id }}-radio-6" id="{{ .id }}-dotForRadio-6"></label>
+        <label for="{{ .id }}-radio-7" id="{{ .id }}-dotForRadio-7"></label>
+        <label for="{{ .id }}-radio-8" id="{{ .id }}-dotForRadio-8"></label>
       </div>
-
-      <button id="carrousel-left" class="carrousel-left">
-        <img src="/img/keyboard_arrow_left-24px.svg" />
-      </button>
-      <button id="carrousel-right" class="carrousel-right">
-        <img src="/img/keyboard_arrow_right-24px.svg" />
-      </button>
     </div>
+
+    <button id="{{ .id }}-carrousel-left" class="carrousel-left">
+      <img src="/img/keyboard_arrow_left-24px.svg" />
+    </button>
+    <button id="{{ .id }}-carrousel-right" class="carrousel-right">
+      <img src="/img/keyboard_arrow_right-24px.svg" />
+    </button>
   </div>
 </div>

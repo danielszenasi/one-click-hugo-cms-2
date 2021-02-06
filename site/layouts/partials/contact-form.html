@@ -34,39 +34,72 @@
 
     <div class="ph1-l pb3">
       <fieldset>
-        <input
-          type="text"
-          id="service"
-          name="service"
-          placeholder="Szolgáltatás típusa"
-          class="w-100 mb2"
-        />
-        <label for="service">Szolgáltatás típusa</label>
+        <div>Szolgáltatás típusa</div>
+        <select class="w-100 mb2" id="service" name="service">
+          <option value=""></option>
+          <option value="egyéni foglalkozás">egyéni foglalkozás</option>
+          <option value="páros foglalkozás">páros foglalkozás</option>
+          <option value="trióval történő foglalkozás">
+            trióval történő foglalkozás
+          </option>
+          <option value="kiscsoportos foglalkozás (4-8 fő)">
+            kiscsoportos foglalkozás (4-8 fő)
+          </option>
+          <option value="nagycsoportos foglalkozás (8-16 fő)">
+            nagycsoportos foglalkozás (8-16 fő)
+          </option>
+          <option value="edzői konzultáció">edzői konzultáció</option>
+          <option value="szülői konzultáció, előadás">
+            szülői konzultáció, előadás
+          </option>
+          <option value="egyéb">egyéb</option>
+        </select>
       </fieldset>
-      {{ .Params.service }}
     </div>
 
     <div class="ph1-l pb3">
       <fieldset>
-        <input
-          type="text"
-          id="date"
-          name="date"
-          placeholder="Alkalmas időpont"
-          class="w-100 mb2"
-        />
-        <label for="date">Alkalmas időpont</label>
+        <div>Alkalmas időpont</div>
+        <select class="w-100 mb2" id="date" name="date">
+          <option value=""></option>
+          <option value="hétfő: 9-12 között">hétfő: 9-12 között</option>
+          <option value="hétfő: 12-15 között">hétfő: 12-15 között</option>
+          <option value="hétfő: 15-18 közöttt">hétfő: 15-18 között</option>
+          <option value="hétfő: 18-21 között">hétfő: 18-21 között</option>
+
+          <option value="kedd: 9-12 között">kedd: 9-12 között</option>
+          <option value="kedd: 12-15 között">kedd: 12-15 között</option>
+          <option value="kedd: 15-18 közöttt">kedd: 15-18 között</option>
+          <option value="kedd: 18-21 között">kedd: 18-21 között</option>
+
+          <option value="szerda: 9-12 között">szerda: 9-12 között</option>
+          <option value="szerda: 12-15 között">szerda: 12-15 között</option>
+          <option value="szerda: 15-18 közöttt">szerda: 15-18 között</option>
+          <option value="szerda: 18-21 között">szerda: 18-21 között</option>
+
+          <option value="csütörtök: 9-12 között">csütörtök: 9-12 között</option>
+          <option value="csütörtök: 12-15 között">
+            csütörtök: 12-15 között
+          </option>
+          <option value="csütörtök: 15-18 közöttt">
+            csütörtök: 15-18 között
+          </option>
+          <option value="csütörtök: 18-21 között">
+            csütörtök: 18-21 között
+          </option>
+
+          <option value="péntek: 9-12 között">péntek: 9-12 között</option>
+          <option value="péntek: 12-15 között">péntek: 12-15 között</option>
+          <option value="péntek: 15-18 közöttt">péntek: 15-18 között</option>
+          <option value="péntek: 18-21 között">péntek: 18-21 között</option>
+
+          <option value="szombat: 9-12 között">szombat: 9-12 között</option>
+          <option value="szombat: 12-15 között">szombat: 12-15 között</option>
+          <option value="szombat: 15-18 közöttt">szombat: 15-18 között</option>
+          <option value="szombat: 18-21 között">szombat: 18-21 között</option>
+          <option value="egyéb">egyéb</option>
+        </select>
       </fieldset>
-      <ul>
-        <li>hétfő: 9-12 között, 12-15 között, 15-18 között, 18-21 között</li>
-        <li>kedd: 9-12 között, 12-15 között, 15-18 között, 18-21 között</li>
-        <li>szerda: 9-12 között, 12-15 között, 15-18 között, 18-21 között</li>
-        <li>
-          csütörtök: 9-12 között, 12-15 között, 15-18 között, 18-21 között
-        </li>
-        <li>péntek: 9-12 között, 12-15 között, 15-18 között, 18-21 között</li>
-        <li>szombat: 9-12 között, 12-15 között, 15-18 között, 18-21 között</li>
-      </ul>
     </div>
 
     <!-- Message -->

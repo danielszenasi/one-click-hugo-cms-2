@@ -14,7 +14,8 @@ fieldset {
 }
 
 input,
-textarea {
+textarea,
+select {
   background-color: var(--grey-2);
   border-radius: var(--border-radius);
   padding: 12px 16px 10px;

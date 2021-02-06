@@ -9,7 +9,9 @@
 
   {{ partial "4-up" .Params.methods }}
 
-  {{ partial "3-up" .Params.references }}
-
-  {{ partial "slider" .Params.testimonials }}
+  <div class="bg-off-white pv4" id="aj%C3%A1nl%C3%A1saim">
+    <h2 class="f2 b tc lh-title mb3">Ajánlásaim</h2>
+    {{ partial "slider" .Params.testimonials_coaches }}
+    {{ partial "slider" .Params.testimonials_competitors }}
+  </div>
 {{ end }}

@@ -71,48 +71,93 @@ methods:
       title: Meseterápia
       text: >
         A sportoló könnyen azonosul olyan mesével, melyben szimbolikus formában megtalálhatók a lelkében felmerülő konfliktusok, az életkori krízisek. Egy testhezálló mese vagy történet során felismeri a szenvedése okát és megtalálja annak megoldását is.
-references:
-  heading: Referenciáim
+testimonials_coaches:
+  heading: Edzők és vezetők
+  id: coaches
   blurbs:
-    - image: /img/ref1.png
-      title: FTC torna, úszás
-    - image: /img/ref2.png
-      title: Vasas úszás
-    - image: /img/ref3.png
-      title: UTE korcsolya
-    - image: /img/ref4.png
-      title: Golfiesta SE golf
-    - image: /img/ref5.png
-      title: Musztáng SE akrobatikus rock and roll
-    - image: /img/ref6.png
-      title: Fit4Race sportolói
-    - image: /img/ref7.png
-      title: MÚSZ JB program
-    - image: /img/ref8.png
-      title: MJSZ Utánpótlás fejlesztés
-    - image: /img/ref9.png
-      title: MMSZ Utánpótlás fejlesztés
-testimonials:
-  heading: Ajánlásaim
-  blurbs:
-    - image: /img/t1.png
-      title: Szájer Péter
-      text: >
-        A Testnevelési Egyetemen ismertük meg egymást sportpszichológiai cikkek írásakor, én akkor már 7-8 éve úszóedzőként dolgoztam a Vasas SC-ben. Többször találkoztam a versenyzőimnél azzal a felállással, hogy fizikailag felkészülten jó formában éreztem őket, azonban a versenyen teljesen más eredmény mutatkozott, mint amire számítottam. A befektetett munka pedig versenyző-edző-szülő részéről is hatalmas volt. Ekkor határoztam el, hogy megkérem Ágit foglalkozzon a versenyzőimmel, nagyon tetszett, hogy nyitott volt és lejött megnézte egy-egy edzésünket, és versenyünket is így pontosan tisztába került azzal, hogy milyen hatások érik a versenyzőket, látta az egész folyamatot. Azt gondolom ez által lett igazán sikeres a közös munka a gyerekekkel, az általa kitalált gyakorlatoknak köszönhetően, tudatosabbak lettek, jobban kezelték a stresszt, el tudtak lazulni, és nagyobb önbizalmuk lett, nem mellesleg a váratlan szituációkat is jobban reagálták le. A kiélezett helyzetekben a korosztályos országos bajnokságokon ezek a képességek érmeket, aranyérmeket, és Jövő Bajnokai tagságot jelentettek. Pozitívumként tekintek vissza a közös munkára és csak ajánlani tudom minden olyan versenyzőnek és edzőjének, aki még jobban szeretne teljesíteni téthelyzetben
-    - image: /img/t2.png
-      title: Patona Borbála
-      text: >
-        Ágit egy ismerős ajánlotta azzal, hogy ugyan fiatal még, de nagyon jó a szakmában. Igaza volt: fiatal és profi! Csapattal való munka során és egyénileg, edzőként is volt szerencsém együtt dolgozni vele. Közvetlensége, szerénysége, segítőkészsége révén könnyen szót értett mindannyiunkkal. Megfigyelte az edzés résztvevőinek viselkedését, meghallgatta a hozzá fordulókat akár egyénileg, akár csoportosan, tapasztalataiból eredő javaslatait, jótanácsait egyértelműen de tapintatosan, „ügyfeleit” nem befolyásolva, mégis finoman a helyes útra terelve adta át. Jó embert ismertem meg benne, akihez bármikor bizalommal fordulhatunk.
-    - image: /img/t3.png
+    - image: /img/t1.jpg
       title: Nagy Balázs
+      organization: MMSZ ifjúsági válogatott szövetségi kapitány
       text: >
-        A Magyar Muaythai Szakszövetség Ifjúsági Válogatott Szövetségi Kapitányaként, amióta csak versenyekre járunk a fiatalokkal, azon gondolkodtam milyen új dolgokat lehetne kipróbálni, hasznosítani amivel még eredményesebbek lehetünk. A klubom keretein belül, felnőtt versenyzőim már dolgoztak sportpszichológussal, ezért szerettem volna utánpótlás korosztályba is behozni ezt a trendet. Tudtam hogy Ági főként utánpótlás korosztállyal foglalkozik, így elhívtam a válogatott edzőtáborunkba csoportos foglalkozásokat tartani. Nagyon jól felépítettnek és hasznosnak találtam a munkáját, mely hozzásegítette a versenyzőket ahhoz, hogy fejben is jobbak legyenek az ellenfeleiknél.
-    - image: /img/t4.png
+        Felnőtt muay thai harcosaink már dolgoztak sportpszichológussal, ezért szerettem volna utánpótlás korosztályba is behozni ezt a trendet, így elhívtam Ágit a válogatott edzőtáborunkba csoportos foglalkozásokat tartani. Nagyon jól felépítettnek és hasznosnak találtam a munkáját, mely hozzásegítette a versenyzőket ahhoz, hogy fejben is jobbak legyenek az ellenfeleiknél.
+    - image: /img/t2.jpg
+      title: Mayer Péter
+      organization: MJSZ, U14,U15,U16 válogatott szövetségi kapitány
+      text: >
+        Ágival a jégkorong válogatottnak tartott tehetséggondozó programok során dolgozhattam együtt, ahol nyugodt, pozitív és mindenekelőtt hihetetlen empatikus személyisége még a különösen érzékeny és „karcos”, 13-14 éves hokisaink érdeklődését is felkeltette. A csoportos foglalkozásokon minden alkalommal hasznos gondolatokkal segítette a rá bízott fiatalokat, így a későbbiekben is bátran bízom rá a legnagyobb tehetségeinket.
+    - image: /img/t3.jpg
       title: Matics Zsolt
+      organization: Fit4Race vezető
       text: >
-        Ágival hatékonyan tudunk együtt dolgozni, fiatalos open mind szemlélettel közelíti meg a sportolóinkat korosztálytól függetlenül, így a munkássága jól beleillik a holisztikusan felépített teljesítmény rendszerünkbe. Sokszor megtalálja azt a bizonyos kulcsot, amely ahhoz szükséges, hogy a sportoló könnyebben gátak nélkül tudja kihozni a benne rejlő potenciált
-    - image: /img/t5.png
+        Ágival hatékonyan tudunk együtt dolgozni, fiatalos open mind szemlélettel közelíti meg a sportolóinkat korosztálytól függetlenül, így a munkássága jól beleillik a holisztikusan felépített teljesítmény rendszerünkbe. Sokszor megtalálja azt a bizonyos kulcsot, amely ahhoz szükséges, hogy a sportoló könnyebben, gátak nélkül tudja kihozni a benne rejlő potenciált.
+    - image: /img/t4.jpg
+      title: Szájer Péter
+      organization: VASAS úszó edző, MÚSZ utánpótlás korosztály koordinátor
+      text: >
+        Mikor megkértem Ágit, hogy foglalkozzon a versenyzőimmel, nagyon tetszett, hogy nyitott volt és megnézte egy-egy edzésünket, és versenyünket is, így pontosan tisztába került azzal, hogy milyen hatások érik a versenyzőket. Az általa kitalált gyakorlatoknak köszönhetően a versenyzők tudatosabbak lettek, jobban kezelték a stresszt, és a váratlan szituációkat is jobban reagálták le. Csak ajánlani tudom minden olyan versenyzőnek és edzőjének, aki még jobban szeretne teljesíteni téthelyzetben.
+    - image: /img/t5.jpg
       title: Csikós Gábor
+      organization: Golfiesta SE vezető, golf edző
       text: >
-        Golfoktatóként sok fiatal játékossal foglalkozom. Olyanokkal is, akik magas szinten űzik ezt a sportot. A golf elsősorban egy "fej sport", így a fiataloknak szükségük van egy lelki társra, egy olyan emberre, aki érti, ill megérti őket. Ági ilyen és az első alkalomtól kezdve nagyon sokat segített nekik. Kedves, nyílt, őszinte személy, aki bizalmat áraszt, így még a szkeptikus fiatalok is megnyíltak előtte. És ennek pályán meglátszott/meglátszódik az eredménye.
+        Golfoktatóként sok fiatal játékossal foglalkozom. Olyanokkal is, akik magas szinten űzik ezt a sportot. A golf elsősorban egy "fej sport", így a fiataloknak szükségük van egy lelki társra, egy olyan emberre, aki érti és megérti őket. Ági ilyen és az első alkalomtól kezdve nagyon sokat segített nekik. Kedves, nyílt, őszinte személy, aki bizalmat áraszt, így még a szkeptikus fiatalok is megnyíltak előtte. És ennek pályán meglátszott/meglátszódik az eredménye.
+    - image: /img/t6.jpg
+      title: Tabajdi Dénes
+      organization: FTC torna edző
+      text: >
+        A tanítványaimban felmerült szorongási problémák kezelése kapcsán kerestük meg Ágit, aki készségesen a rendelkezésünkre állt. A közös munka hatására a sportolók magabiztosabbak lettek és egyre jobb eredményeket értek el a szertorna versenyeken. Többször elhangzott, hogy mennyire élvezték a foglalkozásokat Ági nagy odafigyeléssel és a lehető legszélesebb fronton próbált nekik segíteni, munkájával és hozzáállásával edzőként mi is elégedettek voltunk. Csak ajánlani tudom mindenkinek, aki lelki problémákat észlel tanítványainál.
+    - image: /img/t7.jpg
+      title: Nagy Nikoletta
+      organization: FTC úszó edző
+      text: >
+        Ágival egy sportpszichológiai kutatás kapcsán ismerkedtem meg. Örültem a közös munkának, hiszen már utánpótlás korban nagyon sok múlik azon, hogy egy-egy versenyre hogyan tudnak mentálisan felkészülni a versenyzők. Úgy gondolom, az általa tartott foglalkozások sokat segítettek a gyerekeknek, melyeken tanultakat éles versenyszituációban is alkalmazni tudják. Szívesen ajánlom Ágit mindenkinek, aki precíz és pontos munkára vágyik, valamint a felkészülés részévé kívánja tenni a sportpszichológiát.
+    - image: /img/t8.jpg
+      title: Patona Borbála
+      organization: Musztáng SE edző
+      text: >
+        Ágit egy ismerős ajánlotta, akivel csapatban és egyénileg, edzőként is volt szerencsém együtt dolgozni. Közvetlensége, szerénysége, segítőkészsége révén könnyen szót értett mindannyiunkkal. Megfigyelte az edzés résztvevőinek viselkedését, meghallgatta a hozzá fordulókat akár egyénileg, akár csoportosan, tapasztalataiból eredő javaslatait, jótanácsait egyértelműen, de tapintatosan, „ügyfeleit” nem befolyásolva, mégis finoman a helyes útra terelve adta át. Jó embert ismertem meg benne, akihez bármikor bizalommal fordulhatunk.
+
+testimonials_competitors:
+  heading: Versenyzők
+  id: competitors
+  blurbs:
+    - image: /img/t9.jpg
+      title: Szabó-Feltóthy Eszter
+      organization: úszó versenyző
+      text: >
+        Ági 2018 nyarán kezdett el foglalkozni velem, akkor éppen az Ifjúsági Európa-bajnokságra készültem. Versenyzői múltam során nem először merült fel, hogy a főverseny előtt ugyan a fizikai formám biztató volt, mégsem sikerült mentálisan összeszednem magamat. Ezért fordultam Ágihoz segítségért. Azóta is leállás nélkül dolgozunk együtt, és én úgy látom, hogy jó úton haladunk, az együttműködésünk sikeresnek mondható, hiszen megúsztam az olimpiai A szintet is a segítségével.
+    - image: /img/t10.jpg
+      title: Oravecz Lora
+      organization: MTB versenyző
+      text: >
+        Személy szerint szerettem ezeket a beszélgetéseket Ágival és sokat segítettek abban, hogy a feladataimat még hatékonyabban tudjam elvégezni. Kimondottan tetszett, hogy többféleképpen, különböző módszerekkel próbáltuk elérni a célomat. Számomra fontos volt, hogy mindig volt benne valami változatosság. A tudást, amit szereztem a mai napig használni tudom edzéseken és versenyeken egyaránt. Szívesen ajánlom Ágit, aki sokat segített a céljaim elérésében, amin fáradhatatlanul dolgozom.
+    - image: /img/t11.jpg
+      title: Galambos Bernadett
+      organization: dzsúdó versenyző
+      text: >
+        Kicsit félve mentem Ágihoz, mert nem könnyen nyílok meg idegen embereknek, de annyira kedves volt és közvetlen, hogy nagyon hamar kiöntöttem a szívem és elkezdtük megoldani a judóval kapcsolatos problémáimat. A magánéletemben is nagyon sokat segített, például hogyan tudom az iskolai tanulmányaimat összeegyeztetni az edzésekkel úgy, hogy mindkét helyen jelesen helyt tudjak állni. És bár végül sportágat váltottam, Ági végig mellettem volt amíg őrlődtem ezen és motivált, melyet ezúton is hálásan köszönök.
+    - image: /img/t12.jpg
+      title: Jaczkovics Emma
+      organization: golf versenyző
+      text: >
+        15 éves versenysportoló vagyok, lassan 10 éve versenyzek. Az elmúlt években egyre rangosabb és ezáltal egyre nehezebb versenyeken vettem részt, ami természetesen egyre több stresszel is járt, ezért úgy éreztem, hogy szükségem van valakire, aki segít a mentális felkészülésben. Ismerősök ajánlására kerestem fel Ágit, akivel lassan már 2 éve dolgozunk együtt. Nagyon sokat segít a stresszhelyzetek kezelésében, a sikerélmények és az esetleges kudarcok feldolgozásában is. Bátran ajánlom, mert nagyon szeretek vele dolgozni.
+    - image: /img/t13.jpg
+      title: Guzsaly Bendegúz
+      organization: szertornász
+      text: >
+        Ági sokat segített nekem abban a nehéz időszakban, amikor el kellett dönteni, hogy sportágat vagy egyesületet váltsak. Végül másik csapatba igazoltunk, ahová sikerült beilleszkednem és most már jól érzem magam. Ha valami gond van a sporttal kapcsolatban, továbbra is Ágihoz fordulok segítségért, mert bízom benne és mindig meghallgat. Most éppen önbizalomnövelő gyakorlatok csinálunk, amiket nagyon szeretek, és szerintem segít majd a következő versenyen.
+    - image: /img/t14.jpg
+      title: Varga Martin
+      organization: gokart versenyző
+      text: >
+        Ági 2 éve segíti a versenyzésemet, mentálisan készít a versenyekre, erősít, átbeszéli velem a versenyek alatt történteket, legyen az jó vagy rossz. Velem is előfordul, mint minden versenyzővel, hogy negatív dolog, kudarc, csalódás ér, hullámvölgybe kerülök, ilyenkor tudom, hogy számíthatok rá és a lehető legrövidebb időn belül már felfelé haladok a hullámon. Köszönöm a támogatását és a segítségét!
+    - image: /img/t15.jpg
+      title: Berta Benjámin
+      organization: formaautó versenyző
+      text: >
+        Ágit 2020 nyarán ismertem meg, amikor sportpszichológusra volt szükségem, hogy még jobb tudjak lenni a sportágamban, illetve fel tudjak dolgozni adott helyzeteket. Ági kedves, fiatalos, aranyos és segítőkész volt, a segítségével pedig hétről-hétre egyre könnyebben oldottam meg helyzeteket és érzékelhető volt a változásom. Szeretettel ajánlom Ágit minden olyan fiatal sportolónak, aki még jobbat szeretne kihozni magából.
+    - image: /img/t16.jpg
+      title: Sol Invictus
+      organization: Akrobatikus rock and roll táncosok
+      text: >
+        Fontosnak tartottuk, hogy ne csak fizikálisan, hanem lelkileg is teljesen felkészüljünk egy-egy világversenyre vagy nagyobb megmérettetésre. Miután felkerestük Ágit rengeteg hasznos dolgot tanultunk. Mindig öröm volt vele tréningezni, nem csak csapatosan hanem egyénileg is. Felkészült volt és figyelt az igényeinkre. Elérte, hogy mindenki megnyíljon a másik előtt. Azt gondoljuk, hogy Ági volt a +1 tag, akinek a segítségével azzá a csapattá tudtunk válni, amilyenné igazán szerettünk volna: egy sikeres nagy családdá.
 ---

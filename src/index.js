@@ -58,24 +58,65 @@ window.onload = function () {
     }
   }
 
-  document.getElementById("carrousel-left").addEventListener("click", () => {
-    var selected = document.querySelector('input[name="slides"]:checked').value;
-    var slides = document.querySelectorAll('input[name="slides"]');
-    if (selected == 1) {
-      const last = slides.length - 1;
-      slides[last].checked = true;
-    } else {
-      slides[selected - 2].checked = true;
-    }
-  });
+  document
+    .getElementById("coaches-carrousel-left")
+    .addEventListener("click", () => {
+      var selected = document.querySelector(
+        'input[name="coaches-slides"]:checked'
+      ).value;
+      var slides = document.querySelectorAll('input[name="coaches-slides"]');
+      if (selected == 1) {
+        const last = slides.length - 1;
+        slides[last].checked = true;
+      } else {
+        slides[selected - 2].checked = true;
+      }
+    });
 
-  document.getElementById("carrousel-right").addEventListener("click", () => {
-    var selected = document.querySelector('input[name="slides"]:checked').value;
-    var slides = document.querySelectorAll('input[name="slides"]');
-    if (selected < slides.length) {
-      slides[selected].checked = true;
-    } else {
-      slides[0].checked = true;
-    }
-  });
+  document
+    .getElementById("coaches-carrousel-right")
+    .addEventListener("click", () => {
+      var selected = document.querySelector(
+        'input[name="coaches-slides"]:checked'
+      ).value;
+      var slides = document.querySelectorAll('input[name="coaches-slides"]');
+      if (selected < slides.length) {
+        slides[selected].checked = true;
+      } else {
+        slides[0].checked = true;
+      }
+    });
+
+  document
+    .getElementById("competitors-carrousel-left")
+    .addEventListener("click", () => {
+      var selected = document.querySelector(
+        'input[name="competitors-slides"]:checked'
+      ).value;
+      var slides = document.querySelectorAll(
+        'input[name="competitors-slides"]'
+      );
+      if (selected == 1) {
+        const last = slides.length - 1;
+        slides[last].checked = true;
+      } else {
+        slides[selected - 2].checked = true;
+      }
+    });
+
+  document
+    .getElementById("competitors-carrousel-right")
+    .addEventListener("click", () => {
+      var selected = document.querySelector(
+        'input[name="competitors-slides"]:checked'
+      ).value;
+      var slides = document.querySelectorAll(
+        'input[name="competitors-slides"]'
+      );
+      if (selected < slides.length) {
+        slides[selected].checked = true;
+      } else {
+        slides[0].checked = true;
+      }
+    });
 };

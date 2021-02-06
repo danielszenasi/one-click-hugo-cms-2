@@ -282,7 +282,7 @@ h1 {
   background: #ffffff;
   text-align: center;
   padding-bottom: 4em;
-  height: 520px;
+  height: 400px;
   max-width: 750px;
   margin: auto;
   position: relative;
@@ -320,7 +320,7 @@ h1 {
   right: -100px;
 }
 .carrousel .slides {
-  width: 500%;
+  width: 800%;
   left: 0;
   padding-left: 0;
   padding-top: 1em;
@@ -334,7 +334,7 @@ h1 {
   transition: transform 0.5s;
 }
 .carrousel .slides li {
-  width: 20%;
+  width: 12.5%;
   position: relative;
   float: left;
 }
@@ -347,8 +347,8 @@ h1 {
   font-size: 14px;
 }
 .carrousel li img {
-  width: 3em;
-  height: 3em;
+  width: 100px;
+  height: 100px;
   object-fit: cover;
   border-radius: 50%;
 }
@@ -366,9 +366,9 @@ h1 {
   /* Absolute positioning*/
   position: absolute;
   /* Abosulte positioning*/
-  width: 130px; /*This width  is the addition of the width of all the navigations dots - So in this case is   104 because the navigation dots are 26px (width:10px and 6px marginleft + 6 px marginright) and there are 4 dots so 4x26=104 */
+  width: 208px; /*This width  is the addition of the width of all the navigations dots - So in this case is   104 because the navigation dots are 26px (width:10px and 6px marginleft + 6 px marginright) and there are 4 dots so 4x26=104 */
   left: 50%; /*Centering de element*/
-  margin-left: -52px; /*adjusting the centering by applying a negative margin of half of the width*/
+  margin-left: -104px; /*adjusting the centering by applying a negative margin of half of the width*/
 }
 .carrousel input {
   display: none;
@@ -388,31 +388,127 @@ h1 {
 TODO: make it easier with SCSS
 25% movement 100/slides-num
 */
-#radio-1:checked ~ .slides {
+#competitors-radio-1:checked ~ .slides {
   transform: translateX(0%);
 }
-#radio-2:checked ~ .slides {
-  transform: translateX(-20%);
+#competitors-radio-2:checked ~ .slides {
+  transform: translateX(-12.5%);
 }
-#radio-3:checked ~ .slides {
-  transform: translateX(-40%);
+#competitors-radio-3:checked ~ .slides {
+  transform: translateX(-25%);
 }
-#radio-4:checked ~ .slides {
-  transform: translateX(-60%);
+#competitors-radio-4:checked ~ .slides {
+  transform: translateX(-37.5%);
 }
-#radio-5:checked ~ .slides {
-  transform: translateX(-80%);
+#competitors-radio-5:checked ~ .slides {
+  transform: translateX(-50%);
+}
+#competitors-radio-6:checked ~ .slides {
+  transform: translateX(-62.5%);
+}
+#competitors-radio-7:checked ~ .slides {
+  transform: translateX(-75%);
+}
+#competitors-radio-8:checked ~ .slides {
+  transform: translateX(-87.5%);
+}
+
+#coaches-radio-1:checked ~ .slides {
+  transform: translateX(0%);
+}
+#coaches-radio-2:checked ~ .slides {
+  transform: translateX(-12.5%);
+}
+#coaches-radio-3:checked ~ .slides {
+  transform: translateX(-25%);
+}
+#coaches-radio-4:checked ~ .slides {
+  transform: translateX(-37.5%);
+}
+#coaches-radio-5:checked ~ .slides {
+  transform: translateX(-50%);
+}
+#coaches-radio-6:checked ~ .slides {
+  transform: translateX(-62.5%);
+}
+#coaches-radio-7:checked ~ .slides {
+  transform: translateX(-75%);
+}
+#coaches-radio-8:checked ~ .slides {
+  transform: translateX(-87.5%);
 }
 
 .carrousel .slidesNavigation label:hover {
   cursor: pointer;
 }
 /* You have to repeat this with each slide/dot */
-.carrousel #radio-1:checked ~ .slidesNavigation label#dotForRadio-1,
-.carrousel #radio-2:checked ~ .slidesNavigation label#dotForRadio-2,
-.carrousel #radio-3:checked ~ .slidesNavigation label#dotForRadio-3,
-.carrousel #radio-4:checked ~ .slidesNavigation label#dotForRadio-4,
-.carrousel #radio-5:checked ~ .slidesNavigation label#dotForRadio-5 {
+.carrousel
+  #competitors-radio-1:checked
+  ~ .slidesNavigation
+  label#competitors-dotForRadio-1,
+.carrousel
+  #competitors-radio-2:checked
+  ~ .slidesNavigation
+  label#competitors-dotForRadio-2,
+.carrousel
+  #competitors-radio-3:checked
+  ~ .slidesNavigation
+  label#competitors-dotForRadio-3,
+.carrousel
+  #competitors-radio-4:checked
+  ~ .slidesNavigation
+  label#competitors-dotForRadio-4,
+.carrousel
+  #competitors-radio-5:checked
+  ~ .slidesNavigation
+  label#competitors-dotForRadio-5,
+.carrousel
+  #competitors-radio-6:checked
+  ~ .slidesNavigation
+  label#competitors-dotForRadio-6,
+.carrousel
+  #competitors-radio-7:checked
+  ~ .slidesNavigation
+  label#competitors-dotForRadio-7,
+.carrousel
+  #competitors-radio-8:checked
+  ~ .slidesNavigation
+  label#competitors-dotForRadio-8 {
+  background: #3a3973;
+}
+
+.carrousel
+  #coaches-radio-1:checked
+  ~ .slidesNavigation
+  label#coaches-dotForRadio-1,
+.carrousel
+  #coaches-radio-2:checked
+  ~ .slidesNavigation
+  label#coaches-dotForRadio-2,
+.carrousel
+  #coaches-radio-3:checked
+  ~ .slidesNavigation
+  label#coaches-dotForRadio-3,
+.carrousel
+  #coaches-radio-4:checked
+  ~ .slidesNavigation
+  label#coaches-dotForRadio-4,
+.carrousel
+  #coaches-radio-5:checked
+  ~ .slidesNavigation
+  label#coaches-dotForRadio-5,
+.carrousel
+  #coaches-radio-6:checked
+  ~ .slidesNavigation
+  label#coaches-dotForRadio-6,
+.carrousel
+  #coaches-radio-7:checked
+  ~ .slidesNavigation
+  label#coaches-dotForRadio-7,
+.carrousel
+  #coaches-radio-8:checked
+  ~ .slidesNavigation
+  label#coaches-dotForRadio-8 {
   background: #3a3973;
 }
 
