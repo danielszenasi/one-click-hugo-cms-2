@@ -1,6 +1,7 @@
 :root {
   /* Colors */
   --primary: #3a3973;
+  --secondary: #1f1d79;
   --highlight: rgba(254, 213, 198, 1);
   --white: rgba(255, 255, 255, 1);
   --off-white: rgba(255, 253, 252, 1);
@@ -16,9 +17,9 @@
     sans-serif;
   --line-height: 1.5;
 
-  --font-size: 18px;
-  --font-size-m: 20px;
-  --font-size-l: 22px;
+  --font-size: 16px;
+  --font-size-m: 18px;
+  --font-size-l: 20px;
 
   --body-font-weight: 400;
   --bold-font-weight: 700;

@@ -2,25 +2,25 @@
   <div class="ph3 mw8 center">
     <h2 class="f2 tc b lh-title mb2">{{ .heading }}</h2>
     <p class="mb4 mw6">{{ .description }}</p>
-    <div class="flex-ns flex-wrap mhn2-ns mb3">
+    <div class="flex-ns flex-wrap justify-center-ns mhn2-ns mb3">
       {{ range .blurbs }}
-        <div class="ph2-ns w-33-ns mb4">
-          <div class="flip-card">
-            <div class="flip-card-inner">
-              <div class="flip-card-front">
-                <img
-                  src="{{ .image }}"
-                  alt=""
-                  style="width:300px;height:300px;"
-                />
-                <h3 class="b" style="height: 70px">{{ .title }}</h3>
-              </div>
-              <div class="flip-card-back">
-                <h3 class="b mb2">{{ .title }}</h3>
-                <p>{{ .text }}</p>
-              </div>
+        <div class="ph2-ns w-25-ns mb4">
+          <img src="{{ .image }}" alt="" />
+          <h3 class="b">{{ .title }}</h3>
+
+          <!-- The Modal -->
+          <div id="{{ .id }}-modal" class="modal">
+            <!-- Modal content -->
+            <div class="modal-content">
+              <span class="close" id="{{ .id }}-close">&times;</span>
+              <h3 class="b mb2">{{ .title }}</h3>
+              <p>{{ .text }}</p>
             </div>
           </div>
+
+          <button class="pure-button" id="{{ .id }}-btn">
+            &#8594; Részletek megtekintése
+          </button>
         </div>
       {{ end }}
     </div>

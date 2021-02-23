@@ -120,3 +120,35 @@ window.onload = function () {
       }
     });
 };
+
+[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15].forEach((id) => {
+  // Get the modal
+  var modal = document.getElementById(`${id}-modal`);
+
+  // Get the button that opens the modal
+  var btn = document.getElementById(`${id}-btn`);
+
+  // Get the <span> element that closes the modal
+  var span = document.getElementById(`${id}-close`);
+
+  // When the user clicks on the button, open the modal
+  btn.onclick = function () {
+    modal.style.display = "block";
+  };
+
+  // When the user clicks on <span> (x), close the modal
+  span.onclick = function () {
+    modal.style.display = "none";
+  };
+});
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function (event) {
+  var modals = document.getElementsByClassName("modal");
+  var i;
+  for (i = 0; i < modals.length; i++) {
+    if (modals[i] == event.target) {
+      modals[i].style.display = "none";
+    }
+  }
+};
