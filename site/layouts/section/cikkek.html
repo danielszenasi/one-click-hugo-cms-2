@@ -1,4 +1,5 @@
 {{ define "main" }}
+  {{ partial "jumbotron" (dict "imageUrl" "/img/interju.jpg" "title" "Írások") }}
   <div class="bg-off-white pv4">
     <h1 class="f2 b tc lh-title mb3" id="Tudom%C3%A1nyos%20munk%C3%A1k">
       Tudományos munkák
@@ -12,247 +13,322 @@
     </div>
   </div>
 
-  <div class="bg-off-white pv4">
-    <h1 class="f2 b tc lh-title mb3" id="Let%C3%B6lthet%C5%91%20anyagok">
-      Letölthető anyagok
-    </h1>
-    <div class="mw7 center">
-      <div class="mb3">
-        <h2 class="f3 blog-title secondary b">
-          Age-related differences in motivational climate and
-          extrinsic-intrinsic motivational factors among members of the
-          Hungarian national wrestling teams
-        </h2>
-        <div>
-          <img class="blog-image" src="/img/birkozas.jpg" alt="birkozas" />
-
-          <div class="tj">
-            In sport psychology, research regarding athletes’ motivation and
-            perceived motivational climate is becoming more and more popular.
-            The major aim of the present study was to investigate whether sport
-            motivation and the perceived motivational climate of the members of
-            the Hungarian national wrestling team varried depending on the
-            age-group of the wrestlers. Our results indicated that Amotivation
-            presented a descending pattern with age, the youngest players (10-19
-            years old) attaining highest levels of Amotivation, while the 19-25
-            years-old agegroup the lowest. Although Amotivation increased
-            somewhat in the 25-28 years old age group, this increase was not
-            significant. Regarding the use of external regulation factors, our
-            findings showed that the youngest age group (10-19 years old) relied
-            significantly more on these mechanisms. Consequently, our findings
-            suggest that the youngest wrestlers are more prone to lose their
-            motivation and rely on extrinsic regulation factors in order to be
-            motivated. These aspects have practical importance as a supportive
-            attitude shown by coaches may meet athletes’ basic psychological
-            needs specific for their age, thus increasing their motivation for
-            preparation and competition.
-          </div>
-        </div>
-        <a href="/pdf/CBB2017 (2).pdf" class="secondary" download
-          >&#8594; continue reading</a
-        >
+  <div class="ph2">
+    <div class="bg-off-white">
+      <h1 class="f2 b tc lh-title mb3" id="Tudom%C3%A1nyos%20munk%C3%A1k">
+        OTDK páros portré
+      </h1>
+      <div class="flex justify-center">
+        <iframe
+          width="560"
+          height="315"
+          src="https://www.youtube.com/embed/Y6MS2BY7mhk"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe>
       </div>
-
-      <div class="mb3">
-        <h2 class="f3 blog-title secondary b">
-          Sport motivation and perceived motivational climate among members of a
-          national para-swimming team
-        </h2>
-        <div>
-          <img class="blog-image" src="/img/parauszas.jpg" alt="parauszas" />
-
-          <div class="tj">
-            Swimming is one of the most popular sport domains due to its
-            beneficial physiological effects in both typical and disabled
-            individuals. However, although they are just as successful as their
-            non-disabled counterparts, little is known about what motivates
-            disabled swimmers. This study aimed to reveal the sport motivation
-            and perceived motivational climate of these swimmers in comparison
-            with similar data obtained from non-disabled swimmers. The sample
-            included 18 members of the Hungarian national para-swimming team
-            (Mage = 26.33 years, SD = 10.81), admitted to the 2016 IPC Swimming
-            European Open Championships in Funchal, Portugal. Findings showed
-            that athletes scored high on both intrinsic and extrinsic
-            motivation, while also reporting a more task-oriented climate
-            compared to the Hungarian average. Compared to men, women reported
-            having environmental support for effort/ improvement to a higher
-            degree, while men scored higher for intra-team member rivalry.
-            Importantly, compared to their non-disabled counterparts, disabled
-            swimmers reported higher levels of motivation and scored higher on
-            perception of an ego-oriented climate. Taken together, our findings
-            confirm the assumption that disabled and non-disabled athletes show
-            more similarities than differences, but also point out the
-            importance of research on the structure of highly successful
-            athletes’ motivations, which can provide unique insights regarding
-            their potential.
-          </div>
-        </div>
-        <a href="/pdf/CBB2017.pdf" class="secondary" download
-          >&#8594; continue reading</a
-        >
-      </div>
-
-      <div class="mb3">
-        <h2 class="f3 blog-title secondary b">
-          An exploratory analysis of recreational and competitive athletes’
-          superstitious habits
-        </h2>
-        <div>
-          <img class="blog-image" src="/img/babona.jpg" alt="babona" />
-
-          <div class="tj">
-            The sport’s rituals are an integral part of athletes’ life, and they
-            may largely contribute to their coping with uncertainty and
-            regaining control over competition. This study explored the
-            popularity, perceived effectiveness and characteristic types of
-            sports superstitions among 383 recreational and competitive
-            athletes. Furthermore, the study revealed factors underlying the
-            characteristics of superstitious habits. The results of the
-            questionnaire survey showed that 55.1% of the athletes had at least
-            one superstition, among which pre-match rituals proved the most
-            popular. Nearly 70% of superstitious athletes reported the belief
-            that their rituals had an influence on their performance. The mean
-            perceived effectiveness of rituals was 3.21 on a 5-point scale. The
-            number of superstitions was found to be positively related to the
-            level of athletic activity, to the importance of success and to the
-            athletes’ subjective sense of achievement. Furthermore, the type of
-            the pursued sport also influenced the number of superstitions: among
-            the five sports included in the analysis, the smallest number of
-            rituals was reported by athletes pursuing racket sports, while the
-            highest frequency was shown by handball players.
-          </div>
+    </div>
+    <div class="bg-off-white pv4">
+      <h1 class="f2 b tc lh-title mb3" id="Let%C3%B6lthet%C5%91%20anyagok">
+        Letölthető anyagok
+      </h1>
+      <div class="mw7 center">
+        <div class="w3-bar w3-black">
+          <button
+            class="w3-bar-item w3-button w3-dark-grey"
+            onclick="openCity(event, 'english-articles')"
+          >
+            English articles (EN)
+          </button>
+          <button
+            class="w3-bar-item w3-button"
+            onclick="openCity(event, 'hungarian-articles')"
+          >
+            Magyar cikkek (HU)
+          </button>
         </div>
 
-        <a href="/pdf/CBB2019.pdf" class="secondary" download
-          >&#8594; continue reading</a
-        >
-      </div>
+        <div id="english-articles" class="tab-item">
+          <div class="mb3">
+            <h2 class="f3 blog-title secondary b">
+              Age-related differences in motivational climate and
+              extrinsic-intrinsic motivational factors among members of the
+              Hungarian national wrestling teams
+            </h2>
+            <div>
+              <img class="blog-image" src="/img/birkozas.jpg" alt="birkozas" />
 
-      <div class="mb3">
-        <h2 class="f3 blog-title secondary b">
-          Sportmotiváció és flow élmény vizsgálata társastáncok körében
-        </h2>
-        <div>
-          <img class="blog-image" src="/img/tarsastanc.jpg" alt="tarsastanc" />
-
-          <div class="tj">
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry. Lorem Ipsum has been the industry's standard dummy text
-            ever since the 1500s, when an unknown printer took a galley of type
-            and scrambled it to make a type specimen book. It has survived not
-            only five centuries, but also the leap into electronic typesetting,
-            remaining essentially unchanged. It was popularised in the 1960s
-            with the release of Letraset sheets containing Lorem Ipsum passages,
-            and more recently with desktop publishing software like Aldus
-            PageMaker including versions of Lorem Ipsum. Lorem Ipsum is simply
-            dummy text of the printing and typesetting industry. Lorem Ipsum has
-            been the industry's standard dummy text ever since the 1500s, when
-            an unknown printer took a galley of type and scrambled it to make a
-            type specimen book. It has survived not only five centuries, but
-            also the leap into electronic typesetting, remaining essentially
-            unchanged. It was popularised in the 1960s with the release of
-            Letraset sheets containing Lorem Ipsum passages, and more recently
-            with desktop publishing software like Aldus PageMaker including
-            versions of Lorem Ipsum.
+              <div class="tj">
+                In sport psychology, research regarding athletes’ motivation and
+                perceived motivational climate is becoming more and more
+                popular. The major aim of the present study was to investigate
+                whether sport motivation and the perceived motivational climate
+                of the members of the Hungarian national wrestling team varried
+                depending on the age-group of the wrestlers. Our results
+                indicated that Amotivation presented a descending pattern with
+                age, the youngest players (10-19 years old) attaining highest
+                levels of Amotivation, while the 19-25 years-old agegroup the
+                lowest. Although Amotivation increased somewhat in the 25-28
+                years old age group, this increase was not significant.
+                Regarding the use of external regulation factors, our findings
+                showed that the youngest age group (10-19 years old) relied
+                significantly more on these mechanisms. Consequently, our
+                findings suggest that the youngest wrestlers are more prone to
+                lose their motivation and rely on extrinsic regulation factors
+                in order to be motivated. These aspects have practical
+                importance as a supportive attitude shown by coaches may meet
+                athletes’ basic psychological needs specific for their age, thus
+                increasing their motivation for preparation and competition.
+              </div>
+            </div>
+            <a href="/pdf/CBB2017 (2).pdf" class="secondary" download
+              >&#8594; continue reading</a
+            >
           </div>
-        </div>
 
-        <a href="/pdf/MSTT 2015.pdf" class="secondary" download
-          >&#8594; olvasásának folytatása</a
-        >
-      </div>
+          <div class="mb3">
+            <h2 class="f3 blog-title secondary b">
+              Sport motivation and perceived motivational climate among members
+              of a national para-swimming team
+            </h2>
 
-      <div class="mb3">
-        <h2 class="f3 blog-title secondary b">
-          Komplex sportpszichológiai felkészítés hatásvizsgálata utánpótlás korú
-          tornászok körében
-        </h2>
-        <div>
-          <img class="blog-image" src="/img/torna.jpg" alt="torna" />
+            <div>
+              <img
+                class="blog-image"
+                src="/img/parauszas.jpg"
+                alt="parauszas"
+              />
 
-          <div class="tj">
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry. Lorem Ipsum has been the industry's standard dummy text
-            ever since the 1500s, when an unknown printer took a galley of type
-            and scrambled it to make a type specimen book. It has survived not
-            only five centuries, but also the leap into electronic typesetting,
-            remaining essentially unchanged. It was popularised in the 1960s
-            with the release of Letraset sheets containing Lorem Ipsum passages,
-            and more recently with desktop publishing software like Aldus
-            PageMaker including versions of Lorem Ipsum. Lorem Ipsum is simply
-            dummy text of the printing and typesetting industry. Lorem Ipsum has
-            been the industry's standard dummy text ever since the 1500s, when
-            an unknown printer took a galley of type and scrambled it to make a
-            type specimen book. It has survived not only five centuries, but
-            also the leap into electronic typesetting, remaining essentially
-            unchanged. It was popularised in the 1960s with the release of
-            Letraset sheets containing Lorem Ipsum passages, and more recently
-            with desktop publishing software like Aldus PageMaker including
-            versions of Lorem Ipsum.
+              <div class="tj">
+                Swimming is one of the most popular sport domains due to its
+                beneficial physiological effects in both typical and disabled
+                individuals. However, although they are just as successful as
+                their non-disabled counterparts, little is known about what
+                motivates disabled swimmers. This study aimed to reveal the
+                sport motivation and perceived motivational climate of these
+                swimmers in comparison with similar data obtained from
+                non-disabled swimmers. The sample included 18 members of the
+                Hungarian national para-swimming team (Mage = 26.33 years, SD =
+                10.81), admitted to the 2016 IPC Swimming European Open
+                Championships in Funchal, Portugal. Findings showed that
+                athletes scored high on both intrinsic and extrinsic motivation,
+                while also reporting a more task-oriented climate compared to
+                the Hungarian average. Compared to men, women reported having
+                environmental support for effort/ improvement to a higher
+                degree, while men scored higher for intra-team member rivalry.
+                Importantly, compared to their non-disabled counterparts,
+                disabled swimmers reported higher levels of motivation and
+                scored higher on perception of an ego-oriented climate. Taken
+                together, our findings confirm the assumption that disabled and
+                non-disabled athletes show more similarities than differences,
+                but also point out the importance of research on the structure
+                of highly successful athletes’ motivations, which can provide
+                unique insights regarding their potential.
+              </div>
+            </div>
+            <a href="/pdf/CBB2017.pdf" class="secondary" download
+              >&#8594; continue reading</a
+            >
           </div>
-        </div>
 
-        <a href="/pdf/MSTT 2019.pdf" class="secondary" download
-          >&#8594; olvasásának folytatása</a
-        >
-      </div>
+          <div class="mb3">
+            <h2 class="f3 blog-title secondary b">
+              An exploratory analysis of recreational and competitive athletes’
+              superstitious habits
+            </h2>
+            <div>
+              <img class="blog-image" src="/img/babona.jpg" alt="babona" />
 
-      <div class="mb3">
-        <h2 class="f3 blog-title secondary b">
-          Különböző sportágakban versenyző sportolók sportmotivációjának és low
-          élményének összehasonlító vizsgálata
-        </h2>
-        <div>
-          <img class="blog-image" src="/img/sportagak.jpg" alt="sportagak" />
+              <div class="tj">
+                The sport’s rituals are an integral part of athletes’ life, and
+                they may largely contribute to their coping with uncertainty and
+                regaining control over competition. This study explored the
+                popularity, perceived effectiveness and characteristic types of
+                sports superstitions among 383 recreational and competitive
+                athletes. Furthermore, the study revealed factors underlying the
+                characteristics of superstitious habits. The results of the
+                questionnaire survey showed that 55.1% of the athletes had at
+                least one superstition, among which pre-match rituals proved the
+                most popular. Nearly 70% of superstitious athletes reported the
+                belief that their rituals had an influence on their performance.
+                The mean perceived effectiveness of rituals was 3.21 on a
+                5-point scale. The number of superstitions was found to be
+                positively related to the level of athletic activity, to the
+                importance of success and to the athletes’ subjective sense of
+                achievement. Furthermore, the type of the pursued sport also
+                influenced the number of superstitions: among the five sports
+                included in the analysis, the smallest number of rituals was
+                reported by athletes pursuing racket sports, while the highest
+                frequency was shown by handball players.
+              </div>
+            </div>
 
-          <div class="tj">
-            Külső vagy inkább belső tényezők motiválják a versenysportolókat? És
-            vajon átélik-e az optimális élményt versenyzés közben? Kutatásunkban
-            ezekre a kérdésekre igyekszünk választ találni különböző sportágak
-            versenyzőinek segítségével. Vizsgálatunk során az eredeti 7 faktoros
-            sportmotivációs kérdőívet és a legújabb sportbeli low élményt mérő
-            kérdőívet alkalmaztuk. Összesen 115 fő, 57 nő és 58 féri vett részt
-            a vizsgálatban (40 taktikai, 35 állóképességi, 20 művészi, 20
-            küzdősportoló), melyet internetes kérdőív for- májában végeztünk. A
-            sportmotivációra vonatkozóan azt tapasztaltuk, hogy a küzdőspor-
-            tokat űzők a leginkább belsőleg motiváltak, míg a low élményre
-            vonatkozóan azt igyeltük meg, hogy a művészi sportok esetén jelenik
-            meg a legkevésbé az élmény. Megvizsgáltuk az esetlegesen nemi,
-            életkori és teljesítménybeli különbségeket is, de egyedül a nemek
-            között jelentkezett szigniikáns eltérés a sportágak között. A kapott
-            eredmények alátá- masztanak korábbi kutatási eredményeket, viszont
-            felvetnek újabb kérdéseket is, melyek további vizsgálatokat
-            igényelnének.
+            <a href="/pdf/CBB2019.pdf" class="secondary" download
+              >&#8594; continue reading</a
+            >
           </div>
         </div>
 
-        <a href="/pdf/TST.pdf" class="secondary" download
-          >&#8594; olvasásának folytatása</a
-        >
-      </div>
+        <div id="hungarian-articles" class="tab-item" style="display:none">
+          <div class="mb3">
+            <h2 class="f3 blog-title secondary b">
+              Sportmotiváció és flow élmény vizsgálata társastáncok körében
+            </h2>
+            <div>
+              <img
+                class="blog-image"
+                src="/img/tarsastanc.jpg"
+                alt="tarsastanc"
+              />
 
-      <div class="mb3">
-        <h2 class="f3 blog-title secondary b">
-          „A felkészülés több részből áll és csak együtt válik sikeres egésszé”-
-          interjú
-        </h2>
-        <div>
-          <img class="blog-image" src="/img/babona.jpg" alt="babona" />
+              <div class="tj">
+                A tánc, különbözô sportágakkal összehasonlítva, meglehetôsen
+                kevés tudományos vizsgálatot és megjelent szakirodalmat tudhat
+                magáénak, pedig hasonló teljesítményt igényel, mint a legtöbb
+                sport. Komplex mozgásforma, mivel össze kell hangolni nemcsak a
+                saját testünk mozgását, hanem a mozdulatainkat a zenével és a
+                partnerünkkel is, figyelni kell arra, hogy helyesen végezzük a
+                technikai elemeket, eközben pedig lehengerlô elôadást nyújtsunk
+                és élvezetet sugározzunk. De vajon mi motiválhatja a táncosokat?
+                Kutatásunkban társastáncosokat kerestünk meg, és azt a célt
+                tûztük ki magunk elé, hogy megvizsgáljuk, milyen tényezôk
+                motiválják ôket, illetve mit éreznek tánc közben, mindezt pedig
+                befolyásolhatja-e a nemük, az életkoruk, vagy a tánctudásuk
+                szintje. Vizsgálatunk során az eredeti 7 faktoros
+                sportmotivációs kérdôívet, illetve a legújabb flow kérdôívet
+                alkalmaztuk. Összesen 113 fô, 61 nô és 52 férfi vett részt a
+                vizsgálatban, melyet internetes kérdôív formájában végeztünk. A
+                sportmotivációra vonatkozóan eredményül azt kaptuk, hogy a nôk
+                inkább belsôleg motiváltak, külsô motiváció és amotiváció esetén
+                viszont nem különböznek a férfiaktól; nem mutatható ki életkori
+                különbség; tánctudásbeli eltérés pedig az extrinzik motivációnál
+                jelentkezik. A flow élményre vonatkozóan megfigyeltük, hogy
+                autotelikus élmény esetén szignifikáns a nemek közti különbség;
+                az életkori csoportok között csak a kontrollérzés kapcsán
+                látható kisebb különbség; valamint tánctudásbeli eltérés a flow
+                mélyebb szintjén lévô összetevôknél mutatkozik. A kapott
+                eredmények alátámasztanak korábbi kutatási eredményeket, viszont
+                felvetnek újabb kérdéseket, melyek további vizsgálatokat
+                igényelnek.
+              </div>
+            </div>
 
-          <div class="tj">
-            A 2000-es évek óta Magyarországon is egyre inkább kezdtek elterjedni
-            az edzést kiegészítő eljárások, melynek köszönhetően egyre több
-            olimpikon felkészítésében sportpszichológus is részt vesz. Viszont
-            sokakban még mindig kérdés, pontosan miben is tud segíteni egy
-            sportpszichológus? Erről kérdeztük Szemes Ágnes sportpszichológust,
-            aki főként utánpótlás versenyzőkkel, köztük több úszóval is
-            foglalkozik már évek óta.
+            <a href="/pdf/MSTT 2015.pdf" class="secondary" download
+              >&#8594; olvasásának folytatása</a
+            >
+          </div>
+          <div class="mb3">
+            <h2 class="f3 blog-title secondary b">
+              Komplex sportpszichológiai felkészítés hatásvizsgálata utánpótlás
+              korú tornászok körében
+            </h2>
+            <div>
+              <img class="blog-image" src="/img/torna.jpg" alt="torna" />
+
+              <div class="tj">
+                A sportpszichológiában számos módszert alkalmaznak a mentális
+                felkészítés részeként, leginkább az imaginációt, a belső
+                beszédet és a célállítást használják a sportpszichológusok
+                (Weinberg és Gould, 1999). Az elmúlt időszakban nemzetközi
+                szinten egyre népszerűbbé váltak az egyéni szintű (idiografikus)
+                kutatások, mert általuk könnyebb és gyorsabb a különféle
+                sportpszichológiai beavatkozások megértése és az alkalmazott
+                módszerek értékelése (Barker és mtsai, 2011). Kutatásunk célja
+                az volt, hogy egyénfókuszú kísérleti elrendezésben (EFK)
+                megvizsgáljuk milyen hatása van egy komplex sportpszichológiai
+                felkészítő programnak utánpótláskorú tornász versenyzők
+                motivációjára, önbizalmára, versenyszorongására és
+                sportteljesítményére. A vizsgálatban 3 fiú tornász vett részt,
+                akik 8 és 10 év közöttiek voltak. A 8 alkalmas komplex mentális
+                felkészítést megelőzően és az utolsó alkalmat követően felmértük
+                a motivációjukat (BRSQ, Tóth és Reinhardt validálása alatt) és
+                az önbizalmukat, szorongásszintjüket is (CSAI-2, Sipos és mtsai,
+                1999), a foglalkozások ideje alatt pedig folyamatosan mértük
+                edzőjük segítségével a páros körgyakorlat során nyújtott
+                teljesítményüket. Különböző mértékű változásokat találtunk a PND
+                mutató (percentage of non-overlapping data; átfedésben lévő
+                pontok százalékos mutatója) és hatásmérték alapján a
+                teljesítményben, mely a sportpszichológiai felkészítés
+                hatásaként értelmezhető, valamint pozitív változás volt
+                megfigyelhető az első és a második kérdőív felvétel
+                átlagértékeiben is. A kapott eredmények bizonyítják, hogy egy
+                kevésbé elfogadott kutatási módszer jól használható a
+                gyakorlatban, továbbá felhívják a figyelmet a
+                sportpszichológusok mentális felkészítésben való szerepére már
+                utánpótlás korban is (Barker és mtsai, 2013).
+              </div>
+            </div>
+
+            <a href="/pdf/MSTT 2019.pdf" class="secondary" download
+              >&#8594; olvasásának folytatása</a
+            >
+          </div>
+
+          <div class="mb3">
+            <h2 class="f3 blog-title secondary b">
+              Különböző sportágakban versenyző sportolók sportmotivációjának és
+              low élményének összehasonlító vizsgálata
+            </h2>
+            <div>
+              <img
+                class="blog-image"
+                src="/img/sportagak.jpg"
+                alt="sportagak"
+              />
+
+              <div class="tj">
+                Külső vagy inkább belső tényezők motiválják a
+                versenysportolókat? És vajon átélik-e az optimális élményt
+                versenyzés közben? Kutatásunkban ezekre a kérdésekre igyekszünk
+                választ találni különböző sportágak versenyzőinek segítségével.
+                Vizsgálatunk során az eredeti 7 faktoros sportmotivációs
+                kérdőívet és a legújabb sportbeli low élményt mérő kérdőívet
+                alkalmaztuk. Összesen 115 fő, 57 nő és 58 féri vett részt a
+                vizsgálatban (40 taktikai, 35 állóképességi, 20 művészi, 20
+                küzdősportoló), melyet internetes kérdőív for- májában
+                végeztünk. A sportmotivációra vonatkozóan azt tapasztaltuk, hogy
+                a küzdőspor- tokat űzők a leginkább belsőleg motiváltak, míg a
+                low élményre vonatkozóan azt igyeltük meg, hogy a művészi
+                sportok esetén jelenik meg a legkevésbé az élmény. Megvizsgáltuk
+                az esetlegesen nemi, életkori és teljesítménybeli különbségeket
+                is, de egyedül a nemek között jelentkezett szigniikáns eltérés a
+                sportágak között. A kapott eredmények alátá- masztanak korábbi
+                kutatási eredményeket, viszont felvetnek újabb kérdéseket is,
+                melyek további vizsgálatokat igényelnének.
+              </div>
+            </div>
+
+            <a href="/pdf/TST.pdf" class="secondary" download
+              >&#8594; olvasásának folytatása</a
+            >
+          </div>
+
+          <div class="mb3">
+            <h2 class="f3 blog-title secondary b">
+              „A felkészülés több részből áll és csak együtt válik sikeres
+              egésszé”- interjú
+            </h2>
+            <div>
+              <img class="blog-image" src="/img/babona.jpg" alt="babona" />
+
+              <div class="tj">
+                A 2000-es évek óta Magyarországon is egyre inkább kezdtek
+                elterjedni az edzést kiegészítő eljárások, melynek köszönhetően
+                egyre több olimpikon felkészítésében sportpszichológus is részt
+                vesz. Viszont sokakban még mindig kérdés, pontosan miben is tud
+                segíteni egy sportpszichológus? Erről kérdeztük Szemes Ágnes
+                sportpszichológust, aki főként utánpótlás versenyzőkkel, köztük
+                több úszóval is foglalkozik már évek óta.
+              </div>
+            </div>
+
+            <a href="/pdf/UT.pdf" class="secondary" download
+              >&#8594; olvasásának folytatása</a
+            >
           </div>
         </div>
-
-        <a href="/pdf/UT.pdf" class="secondary" download
-          >&#8594; olvasásának folytatása</a
-        >
       </div>
     </div>
   </div>

@@ -5,6 +5,22 @@ import "./css/main.css";
 // Say hello
 console.log("🦊 Hello! Edit me in src/index.js");
 
+window.openCity = (evt, cityName) => {
+  var i;
+  var x = document.getElementsByClassName("tab-item");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+  document.getElementById(cityName).style.display = "block";
+
+  const tablinks = document.getElementsByClassName("w3-bar-item");
+  for (i = 0; i < x.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" w3-dark-grey", "");
+  }
+
+  evt.currentTarget.className += " w3-dark-grey";
+};
+
 var TxtType = function (el, toRotate, period) {
   this.toRotate = toRotate;
   this.el = el;
@@ -48,6 +64,17 @@ TxtType.prototype.tick = function () {
   }, delta);
 };
 
+function nextSlide() {
+  var selected = document.querySelector('input[name="coaches-slides"]:checked')
+    .value;
+  var slides = document.querySelectorAll('input[name="coaches-slides"]');
+  if (selected < slides.length) {
+    slides[selected].checked = true;
+  } else {
+    slides[0].checked = true;
+  }
+}
+
 window.onload = function () {
   var elements = document.getElementsByClassName("typewrite");
   for (var i = 0; i < elements.length; i++) {
@@ -60,7 +87,7 @@ window.onload = function () {
 
   document
     .getElementById("coaches-carrousel-left")
-    .addEventListener("click", () => {
+    ?.addEventListener("click", () => {
       var selected = document.querySelector(
         'input[name="coaches-slides"]:checked'
       ).value;
@@ -75,21 +102,11 @@ window.onload = function () {
 
   document
     .getElementById("coaches-carrousel-right")
-    .addEventListener("click", () => {
-      var selected = document.querySelector(
-        'input[name="coaches-slides"]:checked'
-      ).value;
-      var slides = document.querySelectorAll('input[name="coaches-slides"]');
-      if (selected < slides.length) {
-        slides[selected].checked = true;
-      } else {
-        slides[0].checked = true;
-      }
-    });
+    ?.addEventListener("click", nextSlide);
 
   document
     .getElementById("competitors-carrousel-left")
-    .addEventListener("click", () => {
+    ?.addEventListener("click", () => {
       var selected = document.querySelector(
         'input[name="competitors-slides"]:checked'
       ).value;
@@ -106,7 +123,7 @@ window.onload = function () {
 
   document
     .getElementById("competitors-carrousel-right")
-    .addEventListener("click", () => {
+    ?.addEventListener("click", () => {
       var selected = document.querySelector(
         'input[name="competitors-slides"]:checked'
       ).value;
@@ -119,6 +136,8 @@ window.onload = function () {
         slides[0].checked = true;
       }
     });
+
+  // setInterval(nextSlide, 2000);
 };
 
 [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15].forEach((id) => {
@@ -131,15 +150,19 @@ window.onload = function () {
   // Get the <span> element that closes the modal
   var span = document.getElementById(`${id}-close`);
 
-  // When the user clicks on the button, open the modal
-  btn.onclick = function () {
-    modal.style.display = "block";
-  };
+  if (btn) {
+    // When the user clicks on the button, open the modal
+    btn.onclick = function () {
+      modal.style.display = "block";
+    };
+  }
 
-  // When the user clicks on <span> (x), close the modal
-  span.onclick = function () {
-    modal.style.display = "none";
-  };
+  if (span) {
+    // When the user clicks on <span> (x), close the modal
+    span.onclick = function () {
+      modal.style.display = "none";
+    };
+  }
 });
 
 // When the user clicks anywhere outside of the modal, close it

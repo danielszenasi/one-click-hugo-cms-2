@@ -131,9 +131,8 @@ table {
 input,
 textarea {
   font-size: var(--spacing-medium);
-  border: none;
   font-family: inherit;
-  border: 0;
+  border-width: 1px;
   margin: 0;
 }
 
