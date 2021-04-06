@@ -44,6 +44,9 @@ blurbs:
       - heading: "2013-2015"
         text: >
           BME-GTK-pszichológia MA munka-és szervezetpszichológia szak
+      - heading: "2016-2018"
+        text: >
+          Kognitív viselkedésterápiás konzultáns
       - heading: "2017-2019"
         text: >
           TE sportpszichológia szak

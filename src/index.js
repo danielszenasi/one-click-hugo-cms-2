@@ -137,7 +137,7 @@ window.onload = function () {
       }
     });
 
-  // setInterval(nextSlide, 2000);
+  // setInterval(nextSlide, 5000);
 };
 
 [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15].forEach((id) => {

@@ -1,35 +1,16 @@
 {{ define "main" }}
-  {{ partial "jumbotron" (dict "imageUrl" "/img/interju.jpg" "title" "Írások") }}
-  <div class="bg-off-white pv4">
-    <h1 class="f2 b tc lh-title mb3" id="Tudom%C3%A1nyos%20munk%C3%A1k">
-      Tudományos munkák
-    </h1>
-    <div class="mw6 center">
+  {{ partial "jumbotron" (dict "imageUrl" "/img/tudomanyos_munkak.jpg" "title" "Tudományos munkák" "color" "white") }}
+  <div class="bg-off-white mt4">
+    <div class="mw6 center tc f3 b lh-title" id="Tudományos%20munkák">
       <a
         target="_blank"
         href="https://m2.mtmt.hu/gui2/?type=authors&mode=browse&sel=10054707"
-        >Magyar Tudományos Művek Tára</a
+        >Publikációk és konferenciák</a
       >
     </div>
   </div>
 
   <div class="ph2">
-    <div class="bg-off-white">
-      <h1 class="f2 b tc lh-title mb3" id="Tudom%C3%A1nyos%20munk%C3%A1k">
-        OTDK páros portré
-      </h1>
-      <div class="flex justify-center">
-        <iframe
-          width="560"
-          height="315"
-          src="https://www.youtube.com/embed/Y6MS2BY7mhk"
-          title="YouTube video player"
-          frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-          allowfullscreen
-        ></iframe>
-      </div>
-    </div>
     <div class="bg-off-white pv4">
       <h1 class="f2 b tc lh-title mb3" id="Let%C3%B6lthet%C5%91%20anyagok">
         Letölthető anyagok
@@ -47,6 +28,12 @@
             onclick="openCity(event, 'hungarian-articles')"
           >
             Magyar cikkek (HU)
+          </button>
+          <button
+            class="w3-bar-item w3-button"
+            onclick="openCity(event, 'media')"
+          >
+            Médiamegjelenések
           </button>
         </div>
 
@@ -304,14 +291,30 @@
               >&#8594; olvasásának folytatása</a
             >
           </div>
+        </div>
 
+        <div id="media" class="tab-item" style="display:none">
+          <div class="mb5">
+            <h2 class="f3 blog-title secondary b tc">OTDK páros portré</h2>
+            <div class="flex justify-center">
+              <iframe
+                width="560"
+                height="315"
+                src="https://www.youtube.com/embed/Y6MS2BY7mhk"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen
+              ></iframe>
+            </div>
+          </div>
           <div class="mb3">
             <h2 class="f3 blog-title secondary b">
               „A felkészülés több részből áll és csak együtt válik sikeres
               egésszé”- interjú
             </h2>
             <div>
-              <img class="blog-image" src="/img/babona.jpg" alt="babona" />
+              <img class="blog-image" src="/img/interju.jpg" alt="babona" />
 
               <div class="tj">
                 A 2000-es évek óta Magyarországon is egyre inkább kezdtek
