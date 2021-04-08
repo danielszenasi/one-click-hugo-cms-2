@@ -1,5 +1,25 @@
+<app-drawer
+  id="drawer"
+  autoclose
+  ontoggle="state.textContent=event.open?'open':'closed'"
+>
+  <nav>
+    <a href="/" class="pa3 no-underline db">Főoldal</a>
+    <a href="/bemutatkozás">Bemutatkozás</a>
+    <a href="/sportpszichológia">Sportpszichológia</a>
+    <a href="/kapcsolat">Kapcsolat</a>
+    <a href="/cikkek">Tudományos munkák</a>
+  </nav>
+</app-drawer>
+
+<div class="hamburger-wrapper">
+  <button class="hamburger-button" onclick="drawer.toggle()">
+    <img class="hamburger-icon" src="/icons/hamburger.svg" />
+  </button>
+</div>
+
 <nav
-  class="nav overflow-x-scroll pl5 overflow-x-visible-ns flex justify-start items-center center relative"
+  class="nav desktop-nav overflow-x-scroll pl5 pr5 overflow-x-visible-ns flex justify-between items-center center relative"
 >
   <!-- Primary Nav -->
   <ul class="flex">
@@ -82,15 +102,27 @@
         </div>
       </div>
     </li>
-    <li>
-      <a href="https://www.facebook.com/szemes.agnes">
-        <img alt="Qries" src="/icons/facebook.svg" width="40" height="70" />
-      </a>
-    </li>
-    <li>
-      <a href="https://www.linkedin.com/in/%C3%A1gnes-szemes-57b669121/">
-        <img alt="Qries" src="/icons/linkedin.svg" width="40" height="70" />
-      </a>
-    </li>
   </ul>
+  <div class="flex items-center">
+    <a
+      class="link social-link"
+      href="https://www.researchgate.net/profile/Agnes-Szemes"
+    >
+      <img
+        alt="research gate"
+        src="/icons/research_gate.svg"
+        width="27"
+        height="27"
+      />
+    </a>
+    <a class="link social-link" href="https://www.facebook.com/szemes.agnes">
+      <img alt="facebook" src="/icons/facebook.svg" width="30" height="30" />
+    </a>
+    <a
+      class="link social-link"
+      href="https://www.linkedin.com/in/%C3%A1gnes-szemes-57b669121/"
+    >
+      <img alt="linkedin" src="/icons/linkedin.svg" width="30" height="30" />
+    </a>
+  </div>
 </nav>
