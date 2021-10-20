@@ -2,13 +2,18 @@
 title: "Kapcsolat"
 image: /img/clinic.jpg
 address: "1126 Budapest, Kiss János Altábornagy utca 19."
-clinic_name: "Alkotás Terápiás Rendelő"
+clinic_name: "Alkotás Terápiás Rendelő (online)"
+connect:
+  - text: "Facebook"
+  - text: "Viber"
+  - text: "Skype"
+  - text: "Google meet felületén"
 direction:
   - text: "villamossal: 17, 59, 61"
   - text: "busszal: 105, 139, 140, 212"
   - text: "2-es metróval"
   - text: "autóval (MOM Parkban érdemes parkolni)"
-direction_desc: "Külső helyszín előzetes egyeztetés és közös megállapodás alapján lehetséges, valamint idővel online formára is átváltható (pl. edzőtábor, verseny, betegség idején). A személyes előadások helyszínéről és technikai feltételeiről a megrendelőnek kell gondoskodnia."
+direction_desc: "Külső helyszín előzetes egyeztetés és közös megállapodás alapján lehetséges. A személyes előadások helyszínéről és technikai feltételeiről a megrendelőnek kell gondoskodnia."
 email: "agiszemes@gmail.com"
 phone: "30/507-4403"
 price: "Kérem személyesen érdeklődjön a szolgáltatás áráról, melyek a létszám, szolgáltatás típusa és hossza alapján 9.000 és 100.000 Ft között mozognak."

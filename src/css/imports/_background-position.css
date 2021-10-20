@@ -3,6 +3,11 @@
   background-position: center center;
 }
 
+.bg-75 { 
+  background-repeat: no-repeat;
+  background-position: 75% center;
+}
+
 .bg-top {
   background-repeat: no-repeat;
   background-position: top center;
