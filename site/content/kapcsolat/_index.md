@@ -2,7 +2,7 @@
 title: "Kapcsolat"
 image: /img/clinic.jpg
 address: "1126 Budapest, Kiss János Altábornagy utca 19."
-clinic_name: "Alkotás Terápiás Rendelő (online)"
+clinic_name: "Alkotás Terápiás Rendelő"
 connect:
   - text: "Facebook"
   - text: "Viber"
