@@ -1,5 +1,5 @@
 ---
-title: "Szemes Ágnes"
+title: "Dr. Szemes Ágnes"
 image: /img/intro.jpg
 ---
 
