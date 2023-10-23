@@ -33,7 +33,7 @@ blurbs:
       - heading: "2013-2016"
         text: >
           ICE-TEAM SE
-  - heading: "Sportpszichológus"
+  - heading: "Sportszakpszichológus"
     text: >
       Mindig is tudtam, hogy a sport világában szeretnék dolgozni, segítve a versenyzők felkészülését. Így az edzői munka mellett elkezdtem pszichológiai tanulmányaimat, majd elvégeztem a sportszakpszichológus képzést is, hogy mentális oldalról szakszerű támogatást tudjak nyújtani a hozzám forduló egyéni és csapatsportolóknak. Magánrendelésemre azóta egyre több versenyző érkezik különböző sportágakból, emellett több szövetség és klub munkáját is igyekszem sportpszichológusként segíteni.
     imageUrl: "/img/intro.jpg"
@@ -50,7 +50,7 @@ blurbs:
       - heading: "2017-2019"
         text: >
           TE sportpszichológia szak
-  - heading: "Oktató-kutató"
+  - heading: "Egyetemi adjunktus"
     text: >
       Az edzői munkám és tanulmányaim során is többen kiemelték, hogy jó oktatói kvalitásaim vannak, kreativitásom pedig jól tudnám kamatoztatni képzés, fejlesztés területén. Az egyetem elvégzése után mentoraim iránymutatásával és segítségével elvállaltam néhány elméleti és gyakorlati tárgy oktatását. Később már komplett kurzusokat is tartottam, és az oktatói pályám következő lépcsőjeként elindítottam a PhD. tanulmányaimat. Disszertációmban élsportolók motivációs struktúráját vizsgáltam, melynek eredményeit a gyakorlati munkámba is beépítem.
     imageUrl: "/img/intro.jpg"
@@ -64,5 +64,7 @@ blurbs:
       - heading: "2017"
         text: KRE-BTK Pszichológia Intézet – külsős oktató
       - heading: "2020"
-        text: TE Sportgazdasági és Döntéstudományi Kutató Központ – egyetemi tanársegéd
+        text: TE Sportgazdasági és Döntéstudományi Kutató Központ – egyetemi adjunktus
+      - heading: "2023"
+        text: Egyetemi adjunktus a TE Sportgazdasági és Döntéstudományi Kutató Központban
 ---
