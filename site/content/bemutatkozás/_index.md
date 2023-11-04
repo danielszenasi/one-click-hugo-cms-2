@@ -63,8 +63,8 @@ blurbs:
         text: Szinergia Szakiskola – külsős oktató
       - heading: "2017"
         text: KRE-BTK Pszichológia Intézet – külsős oktató
-      - heading: "2020"
+      - heading: "2020-2022"
         text: TE Sportgazdasági és Döntéstudományi Kutató Központ – egyetemi adjunktus
-      - heading: "2023"
+      - heading: "2023-"
         text: Egyetemi adjunktus a TE Sportgazdasági és Döntéstudományi Kutató Központban
 ---
