@@ -64,7 +64,7 @@ blurbs:
       - heading: "2017"
         text: KRE-BTK Pszichológia Intézet – külsős oktató
       - heading: "2020-2022"
-        text: TE Sportgazdasági és Döntéstudományi Kutató Központ – egyetemi adjunktus
+        text: TE Sportgazdasági és Döntéstudományi Kutató Központ - egyetemi tanársegéd
       - heading: "2023-"
-        text: Egyetemi adjunktus a TE Sportgazdasági és Döntéstudományi Kutató Központban
+        text: TE Sportgazdasági és Döntéstudományi Kutató Központ - egyetemi adjunktus
 ---
